@@ -10,8 +10,11 @@ body{
 /* Aqui e a parte onde vai vim o JS, coloquei só para meu conteudo não fica colado no menu */
 .bgf{
     /*background-color:#FF8C00; #8B4513 / #A0522D*/
-    background-color:#8B4513;
-    box-shadow: inset 0 0 5px 5px #A0522D ;
+    background-color:rgb(204,149,67);
+    color:#1C1C1C;
+}
+.l {
+    color:rgb(204,149,67);
 }
 .rafael{
     background-color:#FF8C00;
@@ -50,4 +53,19 @@ body{
     background-repeat:no-repeat;
     width:100%;
     height: 30.8em;    
+}
+.solar {
+    background-size:100% 100%;
+    background-image:url(../images/solar.png);
+    background-repeat:no-repeat;
+    width:100%;
+    height: 30.8em;    
+}
+.fpedidos {
+    background-size:100% 150%;
+    background-image:url(../images/uniq_fundo.jpeg);
+    background-repeat:no-repeat;
+    width:100%;
+    height: 30.8em;
+    background-attachment:local;
 }
