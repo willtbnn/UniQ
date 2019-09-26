@@ -1,16 +1,53 @@
+body{
+
+}
+
 .box-shadow {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
                 0 4px 8px 0 rgba(0,0,0,.05), 
 }
+
 /* Aqui e a parte onde vai vim o JS, coloquei só para meu conteudo não fica colado no menu */
+.bgf{
+    /*background-color:#FF8C00; #8B4513 / #A0522D*/
+    background-color:#8B4513;
+    box-shadow: inset 0 0 5px 5px #A0522D ;
+}
 .rafael{
     background-color:#FF8C00;
     width:auto;
     height: 400px;
 }
+/*fim da area do JS Rafael*/
 
-
-.img-controle{
-    width:100px;
-    height: 100px;
+.planejados {
+    background-size:100% 100%;
+    background-image:url(../images/planejados.jpg);
+    background-repeat:no-repeat;
+    width:100%;
+    height: 30.8em;
+}
+.planejados:hover {
+    box-shadow: inset 10px 200px 200px 10px #fff;
+}
+.moveis {
+    background-size:100% 100%;
+    background-image:url(../images/52825826_564805314030104_2139161311345377280_n.png);
+    background-repeat:no-repeat;
+    width:100%;
+    height: 30.8em;    
+}
+.corporativo {
+    background-size:100% 100%;
+    background-image:url(../images/empresas.png);
+    background-repeat:no-repeat;
+    width:100%;
+    height: 30.8em;
+}
+.servicos {
+    background-size:100% 100%;
+    background-image:url(../images/servicos.png);
+    background-repeat:no-repeat;
+    width:100%;
+    height: 30.8em;    
 }
