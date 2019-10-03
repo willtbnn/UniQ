@@ -67,5 +67,45 @@ body{
     background-repeat:no-repeat;
     width:100%;
     height: 30.8em;
-    background-attachment:local;
+    background-attachment:fixed;
 }
+/*
+cor box shadow #E0FFFF #696969
+*/
+.bbtnb{
+    color:black;
+    margin-top:2em;
+    box-shadow: inset 110px 100px 100px 150px #E0FFFF;
+    background-attachment:fixed;
+}
+.pb{
+    margin-top:2em;
+    background-size:100% 100%;
+    background-image:url(../images/planebg.jpg);
+    background-repeat:no-repeat;
+    box-shadow: inset 110px 100px 100px 150px #E0FFFF;
+    height: 30.8em;
+    background-attachment:fixed;
+}
+
+/*Trigger*/
+#dplustrigger-enviando{
+    background-color: #ff7d27;    
+}
+#dplustrigger-sucesso{
+    background-color: #008200;    
+}
+#dplustrigger-erro{
+    background-color: #b43d3d;    
+}
+.jdplustrigger{
+    bottom:0;
+    position: fixed bottom;
+    width 100%;
+    display:none;
+}
+.dplustrigger-text{
+    text-align: center;
+    font-family: sans-serif;
+    color:#fff;
+}            

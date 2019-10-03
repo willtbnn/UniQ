@@ -9,7 +9,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 box-shadow">
-            <a class="navbar-brand ml-md-5" href="index.html"><img src="assets/images/slogan.png" style="width:100px;" /></a>
+            <a class="navbar-brand ml-md-5" href="index.php"><img src="assets/images/slogan.png" style="width:100px;" /></a>
             <buttom class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </buttom>
@@ -19,7 +19,7 @@
                         <a href="" class=" nav-link active">Quem somos</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="" class="nav-link">Planejados</a>
+                        <a href="planejados.php" class="nav-link">Planejados</a>
                     </li>
                     <li class="navbar-item">
                         <a href="" class="nav-link">Movéis</a>
@@ -34,7 +34,7 @@
                         <a href="solar.php" class=" nav-link">Energia Solar</a>
                     </li>
                     <li class="navbar-item">
-                    <a href="pedidos.php" class="btn btn-outline-warning ml-md-2 bgf">Pedido de Orçamento</a>
+                    <a href="pedidos.php" class="btn btn-outline-dark ml-md-2">Pedido de Orçamento</a>
                     </li>                           
                 </ul>
             </div>

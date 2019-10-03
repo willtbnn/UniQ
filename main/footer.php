@@ -42,6 +42,8 @@
         </footer>
         <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        <script type="text/javascript" src="assets/js/script.js"></script>
+        
         <!--Aqui em baixo vem o seu JS-->
     </body>
 </html>
