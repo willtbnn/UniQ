@@ -16,22 +16,22 @@
             <div class="navbar-collapse collapse" id="navbarMenu">
                 <ul class="navbar-nav ml-auto">
                     <li class="navbar-item">
-                        <a href="" class=" nav-link active">Quem somos</a>
+                        <a href="" class="nav-link b-link">Quem somos</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="planejados.php" class="nav-link">Planejados</a>
+                        <a href="planejados.php" class="nav-link b-link">Planejados</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="" class="nav-link">Movéis</a>
+                        <a href="" class="nav-link b-link">Movéis</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="corporativo.php" class=" nav-link">Corporativo</a>
+                        <a href="corporativo.php" class=" nav-link b-link">Corporativo</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="construcao.php" class=" nav-link">Construção e Serviços</a>
+                        <a href="construcao.php" class=" nav-link b-link">Construção e Serviços</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="solar.php" class=" nav-link">Energia Solar</a>
+                        <a href="solar.php" class=" nav-link b-link">Energia Solar</a>
                     </li>
                     <li class="navbar-item">
                     <a href="pedidos.php" class="btn btn-outline-dark ml-md-2">Pedido de Orçamento</a>

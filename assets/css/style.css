@@ -1,23 +1,44 @@
 body{
 
 }
-
+/* Não indicado mais feito alteração no boostrap*/
+.b-link:hover{
+    border-bottom: solid 3px #FFDAB9;
+	transform: translate3d(0,10,0);
+	transition: .5s;
+}
+.btn-trans{
+    width: 97%;
+    transition: .8s;
+}
+.btn-trans:hover{
+    width: 100%;
+    transition: .8s;
+}
+.imagens-link{
+    width: 90%;
+    transition: .8s;
+}
+.imagens-link:hover{
+    width:100%;
+    transform: translate3d(10,100,0);
+	transition: .8s;
+}
 .box-shadow {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
                 0 4px 8px 0 rgba(0,0,0,.05), 
 }
-
 /* Aqui e a parte onde vai vim o JS, coloquei só para meu conteudo não fica colado no menu */
 .bgf{
-    /*background-color:#FF8C00; #8B4513 / #A0522D*/
-    background-color:rgb(204,149,67);
+    /*background-color:#FF8C00; #8B4513 / #A0522D #F5DEB3 #FFDAB9 rgb(204,149,67)*/
+    background-color:#FFDAB9;
     color:#1C1C1C;
 }
 .l {
-    color:rgb(204,149,67);
+    color:#FFDAB9;
 }
 .rafael{
-    background-color:#FF8C00;
+    background-color:#FFDAB9;
     width:auto;
     height: 400px;
 }
@@ -70,7 +91,7 @@ body{
     background-attachment:fixed;
 }
 /*
-cor box shadow #E0FFFF #696969
+cor box shadow #E0FFFF #696969 voltado para pagina planejados
 */
 .bbtnb{
     color:black;
@@ -81,13 +102,39 @@ cor box shadow #E0FFFF #696969
 .pb{
     margin-top:2em;
     background-size:100% 100%;
-    background-image:url(../images/planebg.jpg);
+    background-image:url(../images/fundomelhorado.jpeg);
     background-repeat:no-repeat;
-    box-shadow: inset 110px 100px 100px 150px #E0FFFF;
+    box-shadow: inset 100px 100px 100px 100px #FFDAB9;
     height: 30.8em;
     background-attachment:fixed;
 }
-
+.ambientes{
+    max-width: 90%;
+    box-shadow: 10px 10px 10px  #FFDAB9;
+}
+.ambientes:hover{
+    cursor: pointer;
+    box-shadow: inset 110px 100px 100px 150px #FFDAB9;
+    opacity: 1;
+}
+.portifoliof{
+    background-size:100% 100%;
+    background-image:url(../images/Fundocopua.png);
+    background-repeat:no-repeat;
+    width:100%;
+    height: 100%;    
+}
+/*
+voltado para pagina planejados
+*/
+/* Portifolio definindo fundo para cada modal*/
+.portifolio1 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/55887866_283534745896077_4254709828800217088_o.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+/* Fim - Cada modal tem um fundo diferente */
 /*Trigger*/
 #dplustrigger-enviando{
     background-color: #ff7d27;    
@@ -108,4 +155,4 @@ cor box shadow #E0FFFF #696969
     text-align: center;
     font-family: sans-serif;
     color:#fff;
-}            
+}          
