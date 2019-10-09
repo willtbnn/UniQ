@@ -3,7 +3,7 @@ body{
 }
 /* Não indicado mais feito alteração no boostrap*/
 .b-link:hover{
-    border-bottom: solid 3px #FFDAB9;
+    border-bottom: solid 3px rgb(223,143,32);
 	transform: translate3d(0,10,0);
 	transition: .5s;
 }
@@ -31,7 +31,7 @@ body{
 /* Aqui e a parte onde vai vim o JS, coloquei só para meu conteudo não fica colado no menu */
 .bgf{
     /*background-color:#FF8C00; #8B4513 / #A0522D #F5DEB3 #FFDAB9 rgb(204,149,67)*/
-    background-color:#FFDAB9;
+    background-color:rgb(223,143,32);
     color:#1C1C1C;
 }
 .l {
@@ -52,7 +52,7 @@ body{
     height: 30.8em;
 }
 .planejados:hover {
-    box-shadow: inset 10px 200px 200px 10px #fff;
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .moveis {
     background-size:100% 100%;
@@ -61,12 +61,18 @@ body{
     width:100%;
     height: 30.8em;    
 }
+.moveis:hover {
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
+}
 .corporativo {
     background-size:100% 100%;
     background-image:url(../images/empresas.png);
     background-repeat:no-repeat;
     width:100%;
     height: 30.8em;
+}
+.corporativo:hover{
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .servicos {
     background-size:100% 100%;
@@ -75,12 +81,18 @@ body{
     width:100%;
     height: 30.8em;    
 }
+.servicos:hover{
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
+}
 .solar {
     background-size:100% 100%;
     background-image:url(../images/solar.png);
     background-repeat:no-repeat;
     width:100%;
     height: 30.8em;    
+}
+.solar:hover{
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .fpedidos {
     background-size:100% 150%;
@@ -104,17 +116,17 @@ cor box shadow #E0FFFF #696969 voltado para pagina planejados
     background-size:100% 100%;
     background-image:url(../images/fundomelhorado.jpeg);
     background-repeat:no-repeat;
-    box-shadow: inset 100px 100px 100px 100px #FFDAB9;
+    box-shadow: inset 100px 100px 10px 100px rgb(223,143,32);
     height: 30.8em;
     background-attachment:fixed;
 }
 .ambientes{
     max-width: 90%;
-    box-shadow: 10px 10px 10px  #FFDAB9;
+    box-shadow: 10px 10px 10px  rgb(223,143,32);
 }
 .ambientes:hover{
     cursor: pointer;
-    box-shadow: inset 110px 100px 100px 150px #FFDAB9;
+    box-shadow: inset 110px 100px 100px 150px rgb(223,143,32);
     opacity: 1;
 }
 .portifoliof{
