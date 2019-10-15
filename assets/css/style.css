@@ -1,6 +1,18 @@
 body{
 
 }
+.borda{
+    width:40px;
+    background-color:rgb(223,143,32);
+    height: 2px;
+    padding-top: 0px;
+}
+.grupo {
+    background-size:100% 100%;
+    background-image:url(../images/grupo_UniQ_fundo.png);
+    background-repeat:no-repeat;
+   
+}
 /* Não indicado mais feito alteração no boostrap*/
 .b-link:hover{
     border-bottom: solid 3px rgb(223,143,32);
@@ -35,7 +47,7 @@ body{
     color:#1C1C1C;
 }
 .l {
-    color:#FFDAB9;
+    color:rgb(223,143,32);
 }
 .rafael{
     background-color:#FFDAB9;
@@ -116,8 +128,6 @@ cor box shadow #E0FFFF #696969 voltado para pagina planejados
     background-size:100% 100%;
     background-image:url(../images/fundomelhorado.jpeg);
     background-repeat:no-repeat;
-    box-shadow: inset 100px 100px 10px 100px rgb(223,143,32);
-    height: 30.8em;
     background-attachment:fixed;
 }
 .ambientes{

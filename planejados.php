@@ -1,17 +1,15 @@
 <?php require_once("main/menu.php"); ?>
 <section class="container-fluid pb pt-5">
-    <div class="row" style="height:3.2em;padding-top:3em;">
-        <div class=" col-sm-10 col-lg-6 text-dark ml-md-auto ">
-            <h1 class="display-6 font-weight-bold">Tudo planejado para seu tamanho </h1>
+        <div class="container text-dark ml-md-auto ">
+           <img class="img-fluid py-5" src="assets/images/slogan/slogan_two.png"/>
             <blockquote class="blockquote">
-                <p class="mb-0 lead font-weight-bold">Quanto mais sabemos, melhor vemos as coisas que nos rodeiam. Por outro lado, quanto melhor vemos as coisas, melhor compreendemos .</p>
+                <p class="mb-0 text-center lead font-weight-bold">Realizamos o que há de mais moderno e sofisticado no segmento de planejados, tais como: cozinhas. dormitórios, banheiros, home theaters home office, lavanderias, áreas de serviço, segmento corporativo.<br/><br/>
+
+
+                        Trabalhamos de forma flexível para atender com maior qualidade e sofisticação todos os perfis de clientes, com objetivo sempre de superar as expectativas</p>
             </blockquote>
-            <button type="button" class="btn btn-danger btn-lg ml-sm-auto"><p class="lead mb-lg-auto">Confira nosso portifolio</p></button>
+            <h2 class="display-2 "><a href="#" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
         </div>
-        <div class="col-lg-4 ml-md-auto p-sm-5">
-            <h2 class="display-2 d-none d-lg-block ml-3"><a href="pedidos.php" class="btn btn-trans btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
-        </div>
-    </div>
 </section>
 <section class="d-flex align-items-center mt-5">
     <div class="container ambientes py-5 bg-light ">
@@ -19,6 +17,11 @@
             <div class="col-md-6 d-flex align-items-center">
                 <div class="contanier ml-5">
                     <span class="h2 d-block font-weight-bolder">Home Theater / Salas</span>
+                    <p class="lead">É o cartão de visita de qualquer residência, cada uma segue uma tendência diferenciada que vai depender do projeto e é claro do cliente.
+Mas nem todos os ambientes são grandes o suficiente para comportarem várias salas. Os pequenos apartamentos ganharam um espaço imenso no mercado imobiliário e desta forma para projetá-los, nós precisamos de muito jogo de cintura e bom gosto.
+Mas a regra é uma só para todos: conforto e aconchego.<br/>
+O Home Theater: Os cineminhas particulares entraram com tudo na nossa decoração e agora precisamos nos preocupar com a parte elétrica, para os equipamentos que são muitos.
+Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, almofadas, pufes e tapetes.</p>
                     <h2 class="display-2 d-block ml-5 "><a href="pedidos.php" class="btn btn-trans btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
                 </div>
             </div>
@@ -80,6 +83,7 @@
                 <div class="col-md-6 d-flex align-items-center">
                     <div class="contanier ml-5">
                         <span class="h2 d-block font-weight-bolder">Dormitórios</span>
+                        <p class="lead">Nem sempre é possível ter um quarto espaçoso, por isso uma das maneiras mais simples de solucionar o problema de espaço é criar um ambiente planejado, pois projetar cada centímetro do cômodo desejado fará com que o espaço seja utilizado de maneira inteligente, correta e com isso criando um ambiente personalizado com as características e preferências dos moradores.</p>
                         <h2 class="display-2 d-block ml-5"><a href="pedidos.php" class="btn btn-trans btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
                     </div>
                 </div>

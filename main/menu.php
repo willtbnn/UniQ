@@ -34,7 +34,7 @@
                         <a href="solar.php" class=" nav-link b-link">Energia Solar</a>
                     </li>
                     <li class="navbar-item">
-                    <a href="pedidos.php" class="btn btn-outline-dark ml-md-2">Pedido de Orçamento</a>
+                    <a href="pedidos.php" class="btn btn-trans btn-outline-warning bgf ml-md-2">Orçamento</a>
                     </li>                           
                 </ul>
             </div>
