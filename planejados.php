@@ -1,31 +1,25 @@
 <?php require_once("main/menu.php"); ?>
 <section class="container-fluid pb pt-5">
-        <div class="container text-dark ml-md-auto ">
-           <img class="img-fluid py-5" src="assets/images/slogan/slogan_two.png"/>
-            <blockquote class="blockquote">
-                <p class="mb-0 text-center lead font-weight-bold">Realizamos o que há de mais moderno e sofisticado no segmento de planejados, tais como: cozinhas. dormitórios, banheiros, home theaters home office, lavanderias, áreas de serviço, segmento corporativo.<br/><br/>
-
-
-                        Trabalhamos de forma flexível para atender com maior qualidade e sofisticação todos os perfis de clientes, com objetivo sempre de superar as expectativas</p>
-            </blockquote>
-            <h2 class="display-2 "><a href="#" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
+        <div class="container text-center text-dark ml-md-auto ">
+           <img class="img-fluid py-5 icon" src="assets/images/slogan/marcenaria.png"/>
+            <h2 class="display-2"><a href="#" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
         </div>
 </section>
 <section class="d-flex align-items-center mt-5">
     <div class="container ambientes py-5 bg-light ">
         <div class="row">
-            <div class="col-md-6 d-flex align-items-center">
+            <div class="col-xl-6 col-md-12 d-flex align-items-center">
                 <div class="contanier ml-5">
                     <span class="h2 d-block font-weight-bolder">Home Theater / Salas</span>
                     <p class="lead">É o cartão de visita de qualquer residência, cada uma segue uma tendência diferenciada que vai depender do projeto e é claro do cliente.
-Mas nem todos os ambientes são grandes o suficiente para comportarem várias salas. Os pequenos apartamentos ganharam um espaço imenso no mercado imobiliário e desta forma para projetá-los, nós precisamos de muito jogo de cintura e bom gosto.
-Mas a regra é uma só para todos: conforto e aconchego.<br/>
-O Home Theater: Os cineminhas particulares entraram com tudo na nossa decoração e agora precisamos nos preocupar com a parte elétrica, para os equipamentos que são muitos.
-Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, almofadas, pufes e tapetes.</p>
-                    <h2 class="display-2 d-block ml-5 "><a href="pedidos.php" class="btn btn-trans btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
+                    Mas nem todos os ambientes são grandes o suficiente para comportarem várias salas. Os pequenos apartamentos ganharam um espaço imenso no mercado imobiliário e desta forma para projetá-los, nós precisamos de muito jogo de cintura e bom gosto.
+                    Mas a regra é uma só para todos: conforto e aconchego.<br/>
+                    O Home Theater: Os cineminhas particulares entraram com tudo na nossa decoração e agora precisamos nos preocupar com a parte elétrica, para os equipamentos que são muitos.
+                    Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, almofadas, pufes e tapetes.</p>
+                    <h2 class="display-2 d-block ml-5 "><a href="pedidos.php" class="btn btn-trans btn-outline-warning  mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-xl-6 col-md-12">
                 <div id="carouselplanejados0" class="carousel slide carousel-fade" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -43,6 +37,10 @@ Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, al
                     <div class="carousel-item">
                       <img class="d-block w-100" src="assets/images/sala/52396366_1200192496823960_8030416407642505216_n.jpg" alt="Terceiro Slide">
                     </div>
+                      <div class="carousel-item">
+                      <img class="d-block w-100" src="assets/images/sala/rack.png" alt="Terceiro Slide">
+                    </div>
+                      
                   </div>
                   <a class="carousel-control-prev" href="#carouselplanejados0" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -57,17 +55,23 @@ Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, al
         </div>
     </div>
 </section>
-<section class=" d-flex align-items-center mt-5">
+<section class="d-flex align-items-center mt-5">
         <div class="container ambientes py-5 bg-light">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-xl-6 col-md-12">
                     <div id="carouselplanejados" class="carousel slide carousel-fade" data-ride="carousel">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <img class="d-block w-100" src="assets/images/planejado-quarto%20(1).jpg" alt="Primeiro Slide">
+                          <img class="d-block w-100" src="assets/images/dormitorios/planejado-quarto%20(1).jpg" alt="Primeiro Slide">
                         </div>
                         <div class="carousel-item">
-                          <img class="d-block w-100" src="assets/images/planejado-quarto%20(2).jpg" alt="Segundo Slide">
+                          <img class="d-block w-100" src="assets/images/dormitorios/planejado-quarto%20(2).jpg" alt="Segundo Slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="assets/images/dormitorios/IMG-20190217-WA0046.jpg" alt="Segundo Slide">
+                        </div>
+                          <div class="carousel-item">
+                          <img class="d-block w-100" src="assets/images/dormitorios/52863926_389027521660202_1361601664733151232_n.jpg" alt="Segundo Slide">
                         </div>
                       </div>
                       <a class="carousel-control-prev" href="#carouselplanejados" role="button" data-slide="prev">
@@ -80,7 +84,7 @@ Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, al
                       </a>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex align-items-center">
+                <div class="col-xl-6 col-md-12 d-flex align-items-center">
                     <div class="contanier ml-5">
                         <span class="h2 d-block font-weight-bolder">Dormitórios</span>
                         <p class="lead">Nem sempre é possível ter um quarto espaçoso, por isso uma das maneiras mais simples de solucionar o problema de espaço é criar um ambiente planejado, pois projetar cada centímetro do cômodo desejado fará com que o espaço seja utilizado de maneira inteligente, correta e com isso criando um ambiente personalizado com as características e preferências dos moradores.</p>
@@ -91,15 +95,18 @@ Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, al
         </div>
 </section>
 <section class="d-flex align-items-center mt-5">
-    <div class="container ambientes bg-light ">
+    <div class="container ambientes py-5 bg-light ">
         <div class="row">
-            <div class="col-md-6 d-flex align-items-center">
+            <div class="col-xl-6 col-md-12 d-flex align-items-center">
                 <div class="contanier ml-5">
                 <span class="h2 d-block font-weight-bolder">Banheiros</span>
+                    <p class="lead">Banheiros planejados são ótimas opções de projetos bem pensados para sempre se aproveitar o máximo de um ambiente. No caso de banheiros, que muitas vezes são lugares com menos espaço, torna-se importantíssimo usar móveis que se adeqüem ao ambiente.
+                    Banheiros planejados devem ser bem pensados, para atender as necessidades de todos que irão utilizar daquele ambiente.
+                    Se você tem espaço de sobra no banheiros, faça um bom planejamento, assim você poderá utilizar banheiras e deixar seu banheiro com um conforto a mais.</p>
                 <h2 class="display-2 d-block ml-5"><a href="pedidos.php" class="btn  btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
                 </div>
             </div>
-            <div class="col-md-6 p-0">
+            <div class="col-xl-6 col-md-12">
                 <div id="carouselplanejados2" class="carousel slide carousel-fade" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -126,16 +133,21 @@ Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, al
     </div>
 </section>
 <section class="d-flex align-items-center mt-5">
-        <div class="container row ambientes bg-light">
-            <div class="col-md-6 py-0">
+        <div class="container ambientes py-5 bg-light">
+            <div class="row">
+            <div class="col-xl-6 col-md-12">
                 <div id="carouselplanejados3" class="carousel slide carousel-fade" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" src="assets/images/planejado-quarto%20(1).jpg" alt="Primeiro Slide">
+                      <img class="d-block w-100" src="assets/images/area_de_servicos/52608832_2091562807593655_4090930523801649152_n.jpg" alt="Primeiro Slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="assets/images/planejado-quarto%20(2).jpg" alt="Segundo Slide">
+                      <img class="d-block w-100" src="assets/images/area_de_servicos/IMG-20190217-WA0038.jpg" alt="Segundo Slide">
                     </div>
+                      <div class="carousel-item">
+                      <img class="d-block w-100" src="assets/images/area_de_servicos/IMG-20190217-WA0043.jpg" alt="Segundo Slide">
+                    </div>
+                      
                   </div>
                   <a class="carousel-control-prev" href="#carouselplanejados3" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -147,12 +159,23 @@ Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, al
                   </a>
                 </div>
             </div>
-            <div class="col-md-6 d-flex align-items-center">
+            <div class="col-xl-6 col-md-12 d-flex align-items-center">
                 <div class="contanier ml-5">
                 <span class="h2 d-block font-weight-bolder">Áreas de Serviço</span>
+                    <p class="lead">Quando você escolhe uma cozinha UniQ, escolhe a alta qualidade e o design que já são nossa marca registrada. Isso porque pensamos todo o projeto com sofisticação nos acabamentos, usabilidade nos espaços e personalidade em cada detalhe.
+Conheça nossos diferenciais e encontre a cozinha UniQ planejada e personalizada para você.
+PERSONALIZADA EM CADA DETALHE
+São diversas opções de padrões à escolha, até nos puxadores.
+E mais 30 modelos de frente para personalizar o projeto.
+ERGONOMIA E BELEZA
+Bases giratórias, aramados reguláveis, divisores e organizadores tornam o ambiente prático e harmônico.
+PORTAS ARTICULADAS
+Facilita o acesso aos objetos e deixa o design mais limpo.
+</p>
                 <h2 class="display-2 d-block ml-3"><a href="pedidos.php" class="btn btn-outline-warning btn-trans btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
                 </div>
             </div>
+                </div>
         </div>
 </section>
 <section class="container-fluid py-5 mt-5 bg-dark text-center text-light portifoliof">
@@ -162,7 +185,7 @@ Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, al
         <hr/>
     <div class="container d-flex justify-content-center">
         <video w-50  controls>
-            <source src="assets/videos/WhatsApp%20Video%202019-09-25%20at%2016.24.05.mp4">
+            <source src="assets/videos/UniQinteriores.mp4">
         </video>
     </div>
     <!--Conteudo Serviços-->

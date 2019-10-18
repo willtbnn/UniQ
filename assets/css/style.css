@@ -1,6 +1,9 @@
 body{
 
 }
+.icon{
+    margin-top:25px;
+}
 .borda{
     width:40px;
     background-color:rgb(223,143,32);
@@ -126,9 +129,10 @@ cor box shadow #E0FFFF #696969 voltado para pagina planejados
 .pb{
     margin-top:2em;
     background-size:100% 100%;
-    background-image:url(../images/fundomelhorado.jpeg);
+    background-image:url(../images/IMG-20190217-WA0027.jpg);
     background-repeat:no-repeat;
     background-attachment:fixed;
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .5);
 }
 .ambientes{
     max-width: 90%;
@@ -178,3 +182,12 @@ voltado para pagina planejados
     font-family: sans-serif;
     color:#fff;
 }          
+/* cooporativo*/
+.pbc{
+    margin-top:2em;
+    background-size:100% 100%;
+    background-image:url(../images/corporativo/IMG-20190217-WA0028.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .5);
+}

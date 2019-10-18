@@ -9,7 +9,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 box-shadow">
-            <a class="navbar-brand ml-md-5" href="index.php"><img src="assets/images/slogan/slogan_one.png" style="width:200px;height:50px;" /></a>
+            <a class="navbar-brand ml-md-5" href="index.php"><img src="assets/images/slogan/slogan.png" style="width:200px;height:50px;" /></a>
             <buttom class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </buttom>
