@@ -1,8 +1,11 @@
 <!doctype html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" conten="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta charset="utf-8">
+        <title>UniQ Alto Padrão</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="Grupo UniQ" description="Móveis planejados, Móveis, Casa Planejada, Alto padrão, UniQ construtora, UniQ planejados">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
         <link rel="shortcut icon" href="assets/images/slogan/shout.png" type="image/png">
         <link rel="stylesheet" href="assets/css/bootstrap.css"/>
         <link rel="stylesheet" href="assets/css/style.css"/>
@@ -16,13 +19,13 @@
             <div class="navbar-collapse collapse" id="navbarMenu">
                 <ul class="navbar-nav ml-auto">
                     <li class="navbar-item">
-                        <a href="" class="nav-link b-link">Quem somos</a>
+                        <a href="#quem" class="nav-link b-link">Quem somos</a>
                     </li>
                     <li class="navbar-item">
                         <a href="planejados.php" class="nav-link b-link">Planejados</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="" class="nav-link b-link">Movéis</a>
+                        <a href="moveis.php" class="nav-link b-link">Movéis</a>
                     </li>
                     <li class="navbar-item">
                         <a href="corporativo.php" class=" nav-link b-link">Corporativo</a>

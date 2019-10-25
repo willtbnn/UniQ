@@ -1,7 +1,7 @@
 <?php require_once("main/menu.php"); ?>
 <section class="container-fluid pb pt-5">
         <div class="container text-center text-dark ml-md-auto ">
-           <img class="img-fluid py-5 icon" src="assets/images/slogan/marcenaria.png"/>
+           <img class="img-fluid py-5 icon" src="assets/images/slogan/Planejado.png"/>
             <h2 class="display-2"><a href="#" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
         </div>
 </section>
@@ -178,7 +178,7 @@ Facilita o acesso aos objetos e deixa o design mais limpo.
                 </div>
         </div>
 </section>
-<section class="container-fluid py-5 mt-5 bg-dark text-center text-light portifoliof">
+<section class="container-fluid py-5 mt-5 bg-dark text-center text-light portifoliof" id="quem">
     <span class="h6 d-block">UniQ móveis planejados</span>
     <h2 class="display-4 font-weight-bold">Nosso Portfólio </h2>
     <p class="lead ">Confira alguns seriços feitos por nós! </p>
@@ -192,201 +192,202 @@ Facilita o acesso aos objetos e deixa o design mais limpo.
     <div class="container">
         <div class="row mt-5">
             <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
-                <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
                 <button type="button" class="btn btn-link imagens-link" data-toggle="modal" data-target="#portifoliomodal">
                 <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/55887866_283534745896077_4254709828800217088_o.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                  <img src="assets/images/servicos/servico_1.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
                 </figure></button>
                 <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4" style="height:500px;">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal2">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_2.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal2" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio2"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal3">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_3.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal3" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio3"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal4">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_4.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal4" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio4"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal11">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_11.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal11" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio5"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal6">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_6.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal6" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio6"  role="document">
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal7">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_7.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal7" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio7"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal8">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_8.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal8" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio8"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal9">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_9.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal9" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio9"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal10">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_10.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal10" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio10"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal11">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_11.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal11" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio11"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal12">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_12.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal12" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio12"  role="document">
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal13">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_13.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal13" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio13"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal14">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_14.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal14" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio14"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal15">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_15.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal15" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio15"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal16">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_16.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal16" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio16"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal17">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_17.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure></button>
+                <div class="modal fade " id="portifoliomodal17" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio17"  role="document">
+
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-link imagens-link" data-toggle="modal" data-target="#portifoliomodal18">
+                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                  <img src="assets/images/servicos/servico_18.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                </figure>
+                </button>
+                <div class="modal fade " id="portifoliomodal18" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered portifolio18"  role="document">
                   </div>
                 </div>
             </div>

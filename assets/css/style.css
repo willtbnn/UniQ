@@ -16,12 +16,6 @@ body{
     background-repeat:no-repeat;
    
 }
-/* Não indicado mais feito alteração no boostrap*/
-.b-link:hover{
-    border-bottom: solid 3px rgb(223,143,32);
-	transform: translate3d(0,10,0);
-	transition: .5s;
-}
 .btn-trans{
     width: 97%;
     transition: .8s;
@@ -31,7 +25,7 @@ body{
     transition: .8s;
 }
 .imagens-link{
-    width: 90%;
+    width: 97%;
     transition: .8s;
 }
 .imagens-link:hover{
@@ -154,12 +148,121 @@ cor box shadow #E0FFFF #696969 voltado para pagina planejados
 voltado para pagina planejados
 */
 /* Portifolio definindo fundo para cada modal*/
+/* Não indicado mais feito alteração no boostrap*/
+.b-link:hover{
+    border-bottom: solid 3px rgb(223,143,32);
+	transform: translate3d(0,10,0);
+	transition: .10s;
+}
 .portifolio1 {
     background-size:100% 31em;
-    background-image:url(../images/servicos/55887866_283534745896077_4254709828800217088_o.jpg);
+    background-image:url(../images/servicos/servico_1.jpg);
     background-repeat:no-repeat;
     background-position: center;
 }
+.portifolio2 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_2.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio3 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_3.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio4 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_4.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio5 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_5.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio6 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_6.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio7 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_7.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio8 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_8.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio9 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_9.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio10 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_10.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio11 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_11.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio12 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_12.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio13 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_13.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio14 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_14.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio15 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_15.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio16 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_16.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio17 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_17.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio18 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_18.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
 /* Fim - Cada modal tem um fundo diferente */
 /*Trigger*/
 #dplustrigger-enviando{

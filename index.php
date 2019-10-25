@@ -6,7 +6,7 @@
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/moveis.png"/>
-                        <a href="#" class="ml-5 btn btn-outline-light">Saiba mais</a>
+                        <a href="plenejados/php" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>   
             </div>
@@ -15,8 +15,8 @@
             <div class="moveis">
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3 ">
-                        <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/Planejados.png"/>
-                        <a href="planejados.php" class="ml-5 btn btn-outline-light">Saiba mais</a>
+                        <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/Planejado.png"/>
+                        <a href="planejados.php" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/corporativo.png"/>
-                        <a href="#" class="ml-5 btn btn-outline-light">Saiba mais</a>
+                        <a href="#" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid  " src="assets/images/slogan/construcao.png"/>
-                        <a href="#" class="ml-5 btn btn-outline-light">Saiba mais</a>
+                        <a href="#" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/energia_solar.png" />
-                        <a href="#" class="ml-5 btn btn-outline-light">Saiba mais</a>
+                        <a href="#" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
     </div>
 </section>
 <!-- aplica JS Rafael Bucard-->
-<section class="container-fluid bg-light py-5 grupo">
+<section class="container-fluid bg-light py-5 grupo" id="quem"> 
         <div class="row">
             <div class="container mb-0 col-xl-6 col-md-12 p-5">
                 <blockquote class="blockquote">

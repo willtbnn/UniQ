@@ -1,7 +1,7 @@
 <?php require_once("main/menu.php"); ?>
 <section class="container-fluid pbc pt-5 mb-0">
         <div class="container text-center">
-           <img class="img-fluid py-5 icon" src="assets/images/slogan/marcenaria.png"/>
+           <img class="img-fluid py-5 icon" src="assets/images/slogan/corporativo.png"/>
             <h2 class="display-2"><a href="#" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
         </div>
 </section>

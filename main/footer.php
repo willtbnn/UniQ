@@ -4,18 +4,17 @@
                     <div class="col-sm-6 col-lg-4">
                         <h4 class="h3">São Paulo</h4>
                         <ul class="list-unstyled">
-                            <li>Tel.:<a href="">(11)4219-2314</a></li>
-                            <li>Cel.:<a href="">(11)97391-8174</a></li>
-                            <li>Whatsapp:<a href="">(11)97391-8174</a></li>
+                            <li>Tel.:<a href="">(11)5531-4889</a></li>
+                            <li>Cel.:<a href="">(11)94076-2666</a></li>
+                            <li>Whatsapp:<a href="">(11)94076-2666</a></li>
                             <li>E-mail:<a href="">uniq.sp@uniqplanejados.com.br</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <h4 class="h3">Rio de Janeiro</h4>
                         <ul class="list-unstyled">
-                            <li>Tel.:<a href="">(21)4219-2314</a></li>
-                            <li>Cel.:<a href="">(21)97391-8174</a></li>
-                            <li>Whatsapp:<a href="">(21)97391-8174</a></li>
+                            <li>Cel.:<a href="">(21)98177-5661</a></li>
+                            <li>Whatsapp:<a href="">(21)98177-5661</a></li>
                             <li>E-mail:<a href="">uniq.rj@uniqplanejados.com.br</a></li>
                         </ul>
                     </div>
