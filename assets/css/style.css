@@ -1,5 +1,5 @@
 body{
-
+    font-family: 'IBM Plex Mono SemiBold', monospace;
 }
 .icon{
     margin-top:25px;
@@ -293,4 +293,12 @@ voltado para pagina planejados
     background-repeat:no-repeat;
     background-attachment:fixed;
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .5);
+}
+@media (max-width: 900px) {
+    video {
+        width: 300px;
+    }
+    .lead{
+        display:none;
+    }
 }

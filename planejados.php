@@ -11,7 +11,7 @@
             <div class="col-xl-6 col-md-12 d-flex align-items-center">
                 <div class="contanier ml-5">
                     <span class="h2 d-block font-weight-bolder">Home Theater / Salas</span>
-                    <p class="lead">É o cartão de visita de qualquer residência, cada uma segue uma tendência diferenciada que vai depender do projeto e é claro do cliente.
+                    <p class="lead d-sm-none d-md-block">É o cartão de visita de qualquer residência, cada uma segue uma tendência diferenciada que vai depender do projeto e é claro do cliente.
                     Mas nem todos os ambientes são grandes o suficiente para comportarem várias salas. Os pequenos apartamentos ganharam um espaço imenso no mercado imobiliário e desta forma para projetá-los, nós precisamos de muito jogo de cintura e bom gosto.
                     Mas a regra é uma só para todos: conforto e aconchego.<br/>
                     O Home Theater: Os cineminhas particulares entraram com tudo na nossa decoração e agora precisamos nos preocupar com a parte elétrica, para os equipamentos que são muitos.
@@ -162,16 +162,16 @@
             <div class="col-xl-6 col-md-12 d-flex align-items-center">
                 <div class="contanier ml-5">
                 <span class="h2 d-block font-weight-bolder">Áreas de Serviço</span>
-                    <p class="lead">Quando você escolhe uma cozinha UniQ, escolhe a alta qualidade e o design que já são nossa marca registrada. Isso porque pensamos todo o projeto com sofisticação nos acabamentos, usabilidade nos espaços e personalidade em cada detalhe.
-Conheça nossos diferenciais e encontre a cozinha UniQ planejada e personalizada para você.
-PERSONALIZADA EM CADA DETALHE
-São diversas opções de padrões à escolha, até nos puxadores.
-E mais 30 modelos de frente para personalizar o projeto.
-ERGONOMIA E BELEZA
-Bases giratórias, aramados reguláveis, divisores e organizadores tornam o ambiente prático e harmônico.
-PORTAS ARTICULADAS
-Facilita o acesso aos objetos e deixa o design mais limpo.
-</p>
+                <p class="lead">Quando você escolhe uma cozinha UniQ, escolhe a alta qualidade e o design que já são nossa marca registrada. Isso porque pensamos todo o projeto com sofisticação nos acabamentos, usabilidade nos espaços e personalidade em cada detalhe.
+                Conheça nossos diferenciais e encontre a cozinha UniQ planejada e personalizada para você.
+                PERSONALIZADA EM CADA DETALHE
+                São diversas opções de padrões à escolha, até nos puxadores.
+                E mais 30 modelos de frente para personalizar o projeto.
+                ERGONOMIA E BELEZA
+                Bases giratórias, aramados reguláveis, divisores e organizadores tornam o ambiente prático e harmônico.
+                PORTAS ARTICULADAS
+                Facilita o acesso aos objetos e deixa o design mais limpo.
+                </p>
                 <h2 class="display-2 d-block ml-3"><a href="pedidos.php" class="btn btn-outline-warning btn-trans btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
                 </div>
             </div>
@@ -181,11 +181,11 @@ Facilita o acesso aos objetos e deixa o design mais limpo.
 <section class="container-fluid py-5 mt-5 bg-dark text-center text-light portifoliof" id="quem">
     <span class="h6 d-block">UniQ móveis planejados</span>
     <h2 class="display-4 font-weight-bold">Nosso Portfólio </h2>
-    <p class="lead ">Confira alguns seriços feitos por nós! </p>
+    <p class="lead ">Confira alguns serviços feitos por nós! </p>
         <hr/>
-    <div class="container d-flex justify-content-center">
-        <video w-50  controls>
-            <source src="assets/videos/UniQinteriores.mp4">
+    <div class="container  d-flex justify-content-center ">
+        <video  controls>
+            <source src="assets/videos/UniQinteriores.mp4" type="video/mp4">
         </video>
     </div>
     <!--Conteudo Serviços-->
@@ -202,7 +202,7 @@ Facilita o acesso aos objetos e deixa o design mais limpo.
                   </div>
                 </div>
             </div>
-            <div class="col-sm-4" style="height:500px;">
+            <div class="col-sm-4">
                 <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal2">
                 <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
                   <img src="assets/images/servicos/servico_2.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
