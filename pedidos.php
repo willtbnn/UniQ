@@ -1,4 +1,3 @@
-<?php require_once("main/menu.php"); ?>
 <?php include_once 'config.php'; ?>
 <?php //habilitando o cors
         header("Access-Control-Allow-Origin: *");?>
@@ -34,4 +33,3 @@
         </form>
     </div>
 </div>
-<?php require_once("main/footer.php");?>

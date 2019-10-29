@@ -133,6 +133,16 @@ Pesquisas mostram também que um espaço aconchegante, bem decorado e planejado,
 A UniQ Planejados cria móveis corporativos planejados levando em conta todos os fatores mais importantes: design, qualidade, conforto, ergonomia, privacidade, dentre outros.
 
 
+------Da hospedagem----
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^grupouniq\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.grupouniq\.com\.br$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^index\.php$ "https\:\/\/www\.grupouniq\.com\.br\/" [R=301,L]
 
 
 

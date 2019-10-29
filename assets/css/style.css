@@ -1,6 +1,30 @@
 body{
     font-family: 'IBM Plex Mono SemiBold', monospace;
 }
+.anime-svg{
+    width: 500px;
+    margin:200px auto;
+}
+.anime-svg svg{
+    stroke-width: 2px;
+    stroke:rgb(223, 143, 32);
+    height: 100%;
+    width: 100%;
+    stroke-dashoffset:1000;
+    stroke-dasharray:1000;  
+    animation: svganimation 5s ease-in-out forwards infinite;
+}
+@keyframes svganimation{
+    0% {
+        stroke-dashoffset: 1000;
+    }
+    50%{
+        stroke-dashoffset:500;
+    }
+    100% {
+        stroke-dashoffset: 100;
+    }
+}
 .icon{
     margin-top:25px;
 }

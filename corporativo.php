@@ -1,4 +1,3 @@
-<?php require_once("main/menu.php"); ?>
 <section class="container-fluid pbc pt-5 mb-0">
         <div class="container text-center">
            <img class="img-fluid py-5 icon" src="assets/images/slogan/corporativo.png"/>
@@ -18,4 +17,3 @@ Pesquisas mostram também que um espaço aconchegante, bem decorado e planejado,
 A UniQ Planejados cria móveis corporativos planejados levando em conta todos os fatores mais importantes: design, qualidade, conforto, ergonomia, privacidade, dentre outros.</p>
     </div>
 </section>
-<?php require_once("main/footer.php"); ?>

@@ -1,12 +1,11 @@
-<?php require_once("main/menu.php"); ?>
 <section class="container-fluid pb pt-5">
         <div class="container text-center text-dark ml-md-auto ">
-           <img class="img-fluid py-5 icon" src="assets/images/slogan/Planejado.png"/>
+            <img class="img-fluid py-5 icon" src="assets/images/slogan/Planejado.png"/>
             <h2 class="display-2"><a href="#" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
         </div>
 </section>
 <section class="d-flex align-items-center mt-5">
-    <div class="container ambientes py-5 bg-light ">
+    <div class="container ambientes py-5 bg-light">
         <div class="row">
             <div class="col-xl-6 col-md-12 d-flex align-items-center">
                 <div class="contanier ml-5">
@@ -21,35 +20,34 @@
             </div>
             <div class="col-xl-6 col-md-12">
                 <div id="carouselplanejados0" class="carousel slide carousel-fade" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="assets/images/sala/IMG-20190217-WA0042.jpg" alt="Primeiro Slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/images/sala/IMG-20190217-WA0042.jpg" alt="Primeiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/sala/IMG-20190217-WA0033.jpg" alt="Segundo Slide">
+                        </div>
+                        <div class="carousel-item">
+                             <img class="d-block w-100" src="assets/images/sala/IMG-20190217-WA0029.jpg" alt="Terceiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/sala/IMG-20190217-WA0017.jpg" alt="Quarto Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/sala/52396366_1200192496823960_8030416407642505216_n.jpg" alt="Terceiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/sala/rack.png" alt="Terceiro Slide">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="assets/images/sala/IMG-20190217-WA0033.jpg" alt="Segundo Slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="assets/images/sala/IMG-20190217-WA0029.jpg" alt="Terceiro Slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="assets/images/sala/IMG-20190217-WA0017.jpg" alt="Quarto Slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="assets/images/sala/52396366_1200192496823960_8030416407642505216_n.jpg" alt="Terceiro Slide">
-                    </div>
-                      <div class="carousel-item">
-                      <img class="d-block w-100" src="assets/images/sala/rack.png" alt="Terceiro Slide">
-                    </div>
-                      
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselplanejados0" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselplanejados0" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Próximo</span>
-                  </a>
+                    <a class="carousel-control-prev" href="#carouselplanejados0" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselplanejados0" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -182,7 +180,7 @@
     <span class="h6 d-block">UniQ móveis planejados</span>
     <h2 class="display-4 font-weight-bold">Nosso Portfólio </h2>
     <p class="lead ">Confira alguns serviços feitos por nós! </p>
-        <hr/>
+    <hr>
     <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="assets/videos/UniQinteriores.mp4" allowfullscreen></iframe>
     </div>
@@ -191,24 +189,22 @@
         <div class="row mt-5">
             <div class="col-sm-4">
                 <button type="button" class="btn btn-link imagens-link" data-toggle="modal" data-target="#portifoliomodal">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/servico_1.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
+                    <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                        <img src="assets/images/servicos/servico_1.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                    </figure>
+                </button>
                 <div class="modal fade " id="portifoliomodal" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio1"  role="document">
-
-                  </div>
+                    <div class="modal-dialog modal-dialog-centered portifolio1"  role="document"></div>
                 </div>
             </div>
             <div class="col-sm-4">
                 <button type="button" class="btn btn-link imagens-link " data-toggle="modal" data-target="#portifoliomodal2">
-                <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
-                  <img src="assets/images/servicos/servico_2.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
-                </figure></button>
+                    <figure class="figure" data-toggle="modal" data-target="portifoliomodal">
+                        <img src="assets/images/servicos/servico_2.jpg" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
+                    </figure>
+                </button>
                 <div class="modal fade " id="portifoliomodal2" tabindex="-1" role="dialog" aria-labelledby="portifoliomodaltitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered portifolio2"  role="document">
-
-                  </div>
+                    <div class="modal-dialog modal-dialog-centered portifolio2"  role="document"></div>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -395,7 +391,6 @@
         <h2 class="display-2 ml-5"><a href="pedidos.php" class="btn btn-trans  btn-outline-warning btn-lg  bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
     </div>
 </section>
-<?php require_once("main/footer.php");?>
 
 
 
