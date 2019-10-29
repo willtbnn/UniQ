@@ -14,21 +14,21 @@ include_once 'PHPMailer/class.phpmailer.php';
 
 //enviando o e-mail utilizando a classe PHPMailer
 $Mailer = new PHPMailer;
-$Mailer->Charset = "utf-8";
+$Mailer->Charset = 'utf-8';
 //$Mailer->SMTPDebug = 3;
 $Mailer->IsSMTP();
-$Mailer->Host = "gapconnectconsultoria.com.br";
+$Mailer->Host = 'grupouniq.com.br';
 $Mailer->SMTPAuth = true;
-$Mailer->Username = "projeto@gapconnectconsultoria.com.br";
-$Mailer->Password = ''; //Senha do seu e-mail criado na hospedagem esta protegida.
+$Mailer->Username = 'contato@grupouniq.com.br';
+$Mailer->Password = 'uniq123'; //Senha do seu e-mail criado na hospedagem esta protegida.
 $Mailer->SMTPSecure = 'tls';
 $Mailer->Port = 25;
 $Mailer->Priority = 1; //Prioridade do e-mail
 $Mailer->FromName = ($Nome); // Email e nome de quem enviara o e-mail
-$Mailer->From = 'projeto@gapconnectconsultoria.com.br'; 
+$Mailer->From = 'contato@grupouniq.com.br'; 
 $Mailer->AddAddress('jlbnunes@live.com'); //Para quem será enviado o e-mail ?
 $Mailer->IsHTML(true);
-$Mailer->Subject = "Cliente - ($Nome)".date("H:i")." - ".date("d/m/Y");
+$Mailer->Subject = "Cliente - {$Nome}".date("H:i")." - ".date("d/m/Y");
 $Mailer->Body = "
 <html>
     <body>
@@ -43,7 +43,6 @@ $Mailer->Send();
 //Verificação
 if($Mailer->Send()){
     $Json['error'] = false;
-    echo 'sucesso';
 }
 
 echo json_encode($Json);

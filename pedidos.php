@@ -1,11 +1,11 @@
 <?php require_once("main/menu.php"); ?>
 <?php include_once 'config.php'; ?>
-<!--alert errro-->
+<?php //habilitando o cors
+        header("Access-Control-Allow-Origin: *");?>
 
 <div class="container-fluid mt-5 py-5 fpedidos">
     <div class="container pt-5 ">
-        
-        <?php require_once("main/alert.php"); ?>
+        <?php require("main/alert.php");?>
         <form  method="POST" id="jclickform01" action="<?= HOME ?>/js/requisicao/requisicao.php">
             <div class="form-row">
                 <div class="form-group col-md-6">

@@ -11,7 +11,7 @@
             <div class="col-xl-6 col-md-12 d-flex align-items-center">
                 <div class="contanier ml-5">
                     <span class="h2 d-block font-weight-bolder">Home Theater / Salas</span>
-                    <p class="lead d-sm-none d-md-block">É o cartão de visita de qualquer residência, cada uma segue uma tendência diferenciada que vai depender do projeto e é claro do cliente.
+                    <p class="lead">É o cartão de visita de qualquer residência, cada uma segue uma tendência diferenciada que vai depender do projeto e é claro do cliente.
                     Mas nem todos os ambientes são grandes o suficiente para comportarem várias salas. Os pequenos apartamentos ganharam um espaço imenso no mercado imobiliário e desta forma para projetá-los, nós precisamos de muito jogo de cintura e bom gosto.
                     Mas a regra é uma só para todos: conforto e aconchego.<br/>
                     O Home Theater: Os cineminhas particulares entraram com tudo na nossa decoração e agora precisamos nos preocupar com a parte elétrica, para os equipamentos que são muitos.
@@ -183,10 +183,8 @@
     <h2 class="display-4 font-weight-bold">Nosso Portfólio </h2>
     <p class="lead ">Confira alguns serviços feitos por nós! </p>
         <hr/>
-    <div class="container  d-flex justify-content-center ">
-        <video  controls>
-            <source src="assets/videos/UniQinteriores.mp4" type="video/mp4">
-        </video>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="assets/videos/UniQinteriores.mp4" allowfullscreen></iframe>
     </div>
     <!--Conteudo Serviços-->
     <div class="container">

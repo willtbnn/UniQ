@@ -29,16 +29,14 @@ $(document).ready(function() {
                     _seletorEnviando.fadeOut(0,function(){
                         //Verifica se houver erro
                         if(!_error) {
-                                _seletorSucesso.fadeIn(100);
+                                _seletorSucesso.fadeIn(1000);
                            }else{
                                 _seletorErro.fadeIn(100);
                            }
                         //esconder os tickets - seja qual fot
-                        setTimeout(function(){
-                            _seletoralert.fadeOut(0);
-                        },3500);
+                       
                     });    
-                },3500);
+                },5500);
             }
         });
         return false;

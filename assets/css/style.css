@@ -269,16 +269,28 @@ voltado para pagina planejados
     background-color: #ff7d27;    
 }
 #dplustrigger-sucesso{
-    background-color: #008200;    
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+#dplustrigger-sucesso hr {
+  border-top-color: #b1dfbb;
+}
+
+#dplustrigger-sucesso {
+    color: #0b2e13;
 }
 #dplustrigger-erro{
     background-color: #b43d3d;    
 }
 .jdplustrigger{
-    bottom:0;
-    position: fixed bottom;
-    width 100%;
-    display:none;
+    display: none;
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }
 .dplustrigger-text{
     text-align: center;
@@ -295,9 +307,6 @@ voltado para pagina planejados
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .5);
 }
 @media (max-width: 900px) {
-    video {
-        width: 300px;
-    }
     .lead{
         display:none;
     }
