@@ -1,10 +1,10 @@
-<section class="container-fluid pb pt-5">
+<header class="container-fluid pb pt-5">
         <div class="container text-center text-dark ml-md-auto ">
             <img class="img-fluid py-5 icon" src="assets/images/slogan/Planejado.png"/>
             <h2 class="display-2"><a href="#" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
         </div>
-</section>
-<section class="d-flex align-items-center mt-5">
+</header>
+<article class="d-flex align-items-center mt-5">
     <div class="container ambientes py-5 bg-light">
         <div class="row">
             <div class="col-xl-6 col-md-12 d-flex align-items-center">
@@ -52,8 +52,8 @@
             </div>
         </div>
     </div>
-</section>
-<section class="d-flex align-items-center mt-5">
+</article>
+<article class="d-flex align-items-center mt-5">
         <div class="container ambientes py-5 bg-light">
             <div class="row">
                 <div class="col-xl-6 col-md-12">
@@ -91,8 +91,8 @@
                 </div>
             </div>
         </div>
-</section>
-<section class="d-flex align-items-center mt-5">
+</article>
+<article class="d-flex align-items-center mt-5">
     <div class="container ambientes py-5 bg-light ">
         <div class="row">
             <div class="col-xl-6 col-md-12 d-flex align-items-center">
@@ -129,8 +129,8 @@
             </div>
         </div>
     </div>
-</section>
-<section class="d-flex align-items-center mt-5">
+</article>
+<article class="d-flex align-items-center mt-5">
         <div class="container ambientes py-5 bg-light">
             <div class="row">
             <div class="col-xl-6 col-md-12">
@@ -175,8 +175,8 @@
             </div>
                 </div>
         </div>
-</section>
-<section class="container-fluid py-5 mt-5 bg-dark text-center text-light portifoliof" id="quem">
+</article>
+<article class="container-fluid py-5 mt-5 bg-dark text-center text-light portifoliof" id="quem">
     <span class="h6 d-block">UniQ móveis planejados</span>
     <h2 class="display-4 font-weight-bold">Nosso Portfólio </h2>
     <p class="lead ">Confira alguns serviços feitos por nós! </p>
@@ -390,7 +390,7 @@
     <div class=" d-flex justify-content-center">
         <h2 class="display-2 ml-5"><a href="pedidos.php" class="btn btn-trans  btn-outline-warning btn-lg  bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
     </div>
-</section>
+</article>
 
 
 

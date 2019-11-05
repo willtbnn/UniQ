@@ -1,30 +1,6 @@
 body{
     font-family: 'IBM Plex Mono SemiBold', monospace;
 }
-.anime-svg{
-    width: 500px;
-    margin:200px auto;
-}
-.anime-svg svg{
-    stroke-width: 2px;
-    stroke:rgb(223, 143, 32);
-    height: 100%;
-    width: 100%;
-    stroke-dashoffset:1000;
-    stroke-dasharray:1000;  
-    animation: svganimation 5s ease-in-out forwards infinite;
-}
-@keyframes svganimation{
-    0% {
-        stroke-dashoffset: 1000;
-    }
-    50%{
-        stroke-dashoffset:500;
-    }
-    100% {
-        stroke-dashoffset: 100;
-    }
-}
 .icon{
     margin-top:25px;
 }
@@ -38,7 +14,6 @@ body{
     background-size:100% 100%;
     background-image:url(../images/grupo_UniQ_fundo.png);
     background-repeat:no-repeat;
-   
 }
 .btn-trans{
     width: 97%;
@@ -76,7 +51,6 @@ body{
     height: 400px;
 }
 /*fim da area do JS Rafael*/
-
 .planejados {
     background-size:100% 100%;
     background-image:url(../images/planejados.jpg);
@@ -286,7 +260,10 @@ voltado para pagina planejados
     background-repeat:no-repeat;
     background-position: center;
 }
-
+.control-ico{
+    max-width: 40%;
+    cursor:pointer;
+}
 /* Fim - Cada modal tem um fundo diferente */
 /*Trigger*/
 #dplustrigger-enviando{
@@ -320,7 +297,12 @@ voltado para pagina planejados
     text-align: center;
     font-family: sans-serif;
     color:#fff;
-}          
+}
+@media (max-width: 900px) {
+    .lead{
+        display:none;
+    }
+}        
 /* cooporativo*/
 .pbc{
     margin-top:2em;
@@ -330,8 +312,69 @@ voltado para pagina planejados
     background-attachment:fixed;
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .5);
 }
-@media (max-width: 900px) {
-    .lead{
-        display:none;
-    }
+/* solar*/
+.headesolar-fundo{
+    background-size:100% 100%;
+    background-image:url(../images/solar/header_f1.jpg);
+    margin-top:2em;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .5);
+}
+.pontilhado{
+    background: #fff;
+    border-bottom-style: dashed;
+    border-color:rgb(204, 225, 51);
+    height: 50px;
+    z-index: 1;
+}
+.fundo_dark{
+    margin:0;
+    background: #fff;
+    border-color:rgb(204, 225, 51);
+    height: 50px;
+    z-index: 1;
+}
+.fundo_solar{
+    background-color: rgb(204, 225, 51);
+    width: auto;
+}
+#anime-fotovoltaico{
+    background-color: rgb(204, 225, 51);
+    width: auto;
+}
+.pontilhado_azul{
+    background: #fff;
+    border-bottom-style: dashed;
+    border-color:rgb(204, 225, 51);
+    height: 50px;
+    z-index: 1;
+}
+/* abplicar JS aqui */
+.anime-fotovoltaicoazul{
+    background-color: rgb(204, 225, 51);
+    width: auto;
+}
+.fotovoltaico-start{
+    transition: .3s;
+    opacity: 1;
+    
+}
+/* abplicar JS aqui */
+.borda-col{
+    border-bottom-style: dashed;
+    border-color:rgb(204, 225, 51);
+}
+.sombra-img{
+       box-shadow: inset 19px 0px 20px 6px rgb(204, 225, 51);
+}
+.centralizar-sm{
+    margin-left: 8em !important;
+}
+.ajuste{
+    color:rgb(204, 225, 51);
+    border-bottom-style: double;
+    border-color:rgb(204, 225, 51);
+    width: 20%;
+    margin-left: 3em;
 }

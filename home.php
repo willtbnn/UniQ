@@ -1,4 +1,4 @@
-<section class="container-fluid m-0 p-0" style="overflow:hidden;" >
+<header class="container-fluid m-0 p-0" style="overflow:hidden;" >
     <div class="row text-dark ">
         <div class="col-lg-6 p-0">
             <div class="planejados">
@@ -21,8 +21,8 @@
             </div>
         </div>
     </div>
-</section>
-<section class="container-fluid m-0 p-0" style="overflow:hidden;">
+</header>
+<header class="container-fluid m-0 p-0" style="overflow:hidden;">
     <div class="row bg-light text-dark">
         <div class="col-lg-4 p-0">
             <div class="corporativo py-5 ">
@@ -55,9 +55,9 @@
             </div>
         </div>
     </div>
-</section>
+</header>
 <!-- aplica JS Rafael Bucard-->
-<section class="container-fluid bg-light py-5 grupo" id="quem"> 
+<article class="container-fluid bg-light py-5 grupo" id="quem"> 
         <div class="row">
             <div class="container mb-0 col-xl-6 col-md-12 p-sm-0"> 
                 <blockquote class="blockquote">
@@ -70,7 +70,8 @@
                     Os diretores da empresa são profissionais com dedicação em tempo integral à fábrica, contando com mais de 20 anos de experiência e premiados em Programas de Excelência do mercado.<br/>
                 </p>
                 <h4 class="h5 mb-0">EMPRESA<br/></h4><br/>
-                <p class="mt-0">O Grupo Uniq traz um novo conceito de móveis, móveis planejados, construção civil, serviços, energia solar, com um formato inovador de atendimento que faz da UNIQ uma empresa comprometida com o cliente desde a assinatura do contrato até a entrega final dos móveis.
+                <p class="mt-0">O Grupo Uniq traz um novo conceito de móveis planejados, construção civil, reformas, projetos e acabamentos, sistema de energia fotovoltaica e aquecimento solar.
+                Com um formato inovador de atendimento que faz da UNIQ uma empresa comprometida com o cliente desde a assinatura do contrato até a entrega final dos projetos.
                 Realizamos o que há de mais moderno e sofisticado no segmento de planejados, tais como: Cozinhas, dormitórios, banheiros, home theaters, home offices, lavanderias, áreas de serviço e o segmento corporativo.
 
                 Trabalhamos de forma flexível para atender com maior qualidade e sofisticação todos os perfis de clientes, com o objetivo sempre de superar as expectativas.
@@ -86,7 +87,7 @@
                 <div class="borda"></div>
                 <p>Acompanhamento e orientação de gestão do negócio.</p>
                 <div class="borda"></div>
-                <p>Produtos de qade e ampla cartela de cores, perfis e acabamentos, com curto prazo de produção.</p>
+                <p>Produtos de qualidade e ampla cartela de cores, perfis e acabamentos, com curto prazo de produção.</p>
                 <div class="borda"></div>
                 <p>Sem exigência de pedido mínimo.</p>
                 <div class="borda"></div>
@@ -94,7 +95,7 @@
                 <div class="borda"></div>
             </div>
         </div>
-</section>
+</article>
 <section class="p-0 bg-dark text-center container-fluid">
     <div class="">
         <p class="text-light display-1 p-0">v</p>
