@@ -5,7 +5,7 @@
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/moveis.png"/>
-                        <a href="planejados.php" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <a href="moveis" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>   
             </div>
@@ -15,7 +15,7 @@
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3 ">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/Planejado.png"/>
-                        <a href="planejados.php" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <a href="planejados" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/corporativo.png"/>
-                        <a href="corporativo.php" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <a href="corporativo" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid  " src="assets/images/slogan/construcao.png"/>
-                        <a href="construcao.php" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <a href="construcao" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/energia_solar.png" />
-                        <a href="solar.php" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <a href="solar" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
     <div class="">
         <p class="text-light display-1 p-0">v</p>
         <span class="h6 d-block text-light"> Orçamento sem compromisso</span>
-        <a href="pedidos.php" class="btn  btn-outline-warning btn-lg mt-4 bgf">Enviar pedido</a>
+        <a href="pedidos" class="btn  btn-outline-warning btn-lg mt-4 bgf">Enviar pedido</a>
         <p class="text-light display-1 p-0">^</p>
     </div>
 </section>

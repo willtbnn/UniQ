@@ -1,5 +1,8 @@
 body{
     font-family: 'IBM Plex Mono SemiBold', monospace;
+    padding-bottom:0px;
+    margin: 0;
+    overflow-x:hidden;
 }
 .icon{
     margin-top:25px;
@@ -305,12 +308,27 @@ voltado para pagina planejados
 }        
 /* cooporativo*/
 .pbc{
+    overflow: hidden;
     margin-top:2em;
     background-size:100% 100%;
-    background-image:url(../images/corporativo/IMG-20190217-WA0028.jpg);
+    background-image:url(../images/corporativo/desenho_predio.png);
     background-repeat:no-repeat;
     background-attachment:fixed;
-    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .5);
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .9);
+}
+.pg-empresa{
+    margin-top:2em;
+    background-image:url(../images/corporativo/marcenaria.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .9);
+}
+.connn{
+    max-width:400px;
+}
+.text-coporativo{
+    color:rgb(135, 75, 15);
 }
 /* solar*/
 .headesolar-fundo{
@@ -377,4 +395,8 @@ voltado para pagina planejados
     border-color:rgb(204, 225, 51);
     width: 20%;
     margin-left: 3em;
+}
+.numeros-encima {
+    margin-right: 1000px !important;
+    max-width:50px;
 }

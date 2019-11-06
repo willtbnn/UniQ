@@ -12,7 +12,7 @@
 <article class="container-fluid  mt-0 ml-0">
     <div class="container-fluid row align-items-center">
         <div class="col-lg-4 ml-5  align-self-center">
-            <img src="assets/images/solar/sistema_fotovoltaico.1.png" class="img-thumbnail sombra-img">
+            <img src="assets/images/solar/kisspng-solar-power-solar-energy-renewable-energy-renewabl-verhuizen-energietarieven-vergelijken-waterrijk-5cce7a48ba45d4.854972231557035592763.png" class="img-fluid">
         </div>
         <div class="col-lg-6 pt-5 align-self-center">
             <p class="text-back h5">Um sistema fotovoltaico é uma fonte de potência elétrica na qual as células fotovoltaicas transformam a Radiação Solar diretamente em energia elétrica.
@@ -23,7 +23,7 @@
             A confiabilidade dos sistemas fotovoltaicos é tão alta que são utilizados em locais inóspitos como: no espaço, desertos, selvas, regiões remotas, etc.</p>
         </div>
         <div class="col-lg-4 ml-5  align-self-center text-right mr-sm-5 mr-lg-0 ">
-            <img src="assets/images/solar/sistema_fotovoltaico.2.png" class="img-thumbnail sombra-img">
+            <img src="assets/images/solar/kisspng-solar-panel-photovoltaics-solar-energy-solar-power-sunshine-under-the-photovoltaic-panels-5a7e5e620f4eb5.1234744915182311380627.png" class="img-fluid">
         </div>
     </div>
 </article>   
@@ -49,12 +49,12 @@
     </div>
 </section>
 <article class="container mt-4 pt-5">
-    <div class="row bg-light">
-        <div class="col-md-5 col-sm-10">
-            <img src="assets/images/solar/on-grid.jpg" class="mh-100" style="max-width:100%;">
+    <div class="row">
+        <div class="col-md-5 col-sm-10 align-self-center">
+            <img src="assets/images/solar/on-grid.png" class="mh-100 align-self-center" style="max-width:100%;">
         </div>
         <div class="col-md-2 col-sm-2">
-            <div class="col mt-5 d-none d-lg-block rounded-circle align-self-center bg-dark text-center " style="max-width:50px;">
+            <div class="col mt-5 d-none d-lg-block rounded-circle align-self-center bg-dark text-center numeros-encima ">
                 <p class="text-light">1</p>
             </div>
             <div class="col mt-5 d-none d-lg-block rounded-circle align-self-center bg-dark text-center " style="max-width:50px;">
@@ -160,7 +160,7 @@
         </div>
         <div class="col-lg-6 col-sm-12 mt-5">
             <img src="assets/images/solar/carteira.png">
-            <p class="h5">Umj ótimo invstimento com alto retorno.</p>
+            <p class="h5">Um ótimo investimento com alto retorno.</p>
         </div>
         <div class="col-lg-6 col-sm-12 mt-5">
             <img src="assets/images/solar/valorizacao.png">
@@ -176,6 +176,19 @@
         </div>
     </div>
 </article>
+<section class="container">
+    <div class="row pt-4">
+        <div class="col-md-4 col-sm-12 align-self-center">
+            <img src="assets/images/solar/green_brasil.png" class="img-fluid">
+        </div>
+        <div class="col-md-4 col-sm-12 pt-4">
+            <img src="assets/images/solar/ecos_grupouniq.png" class="img-fluid">
+        </div>
+        <div class="col-md-4 col-sm-12 pt-4">
+            <img src="assets/images/solar/selo_solar.png" class="img-fluid">
+        </div>
+    </div>
+</section>
 <section class="container-fluid align-self-center fundo_solar mt-5 text-center p-5">
     <span class="h5 text-dark">Agora que você conhece os benefícios da <code class="l">Energia solar</code> Fotovoltaica, entre em contato conosco</span>
     <h6><a href="pedidos" class="btn btn-outline-success mt-5">Peça seu orçamento</a></h6>

@@ -56,7 +56,7 @@
             include 'home.php';
         }
         ?>
-        <section class="bg-light text-dark py-5">
+        <section class="text-dark py-5">
             <div class="container">
                 <div class="row">
                     <address class="col-sm-6 col-lg-4">
@@ -78,23 +78,18 @@
                     </address>
                     <address class="cols-sm-12 col-lg-4">
                         <h7 class="h3">Siga-nos nas redes </h7>
-                        
-                           
-                                <a class="btn btn-light-warning" style="max-width:140px;"  href="https://www.facebook.com/uniqrjsp">
-                                    <img src="assets/images/facebook.png" class="control-ico">    
-                                </a>
-                             
-                                <a class="btn btn-light-warning" style="max-width:140px;"  href="https://www.instagram.com/grupo_uniq/?hl=pt-br">
-                                    <img src="assets/images/instagram.png" class="control-ico">    
-                                </a>
-                         
-                  
+                        <a class="btn btn-light-warning" style="max-width:140px;"  href="https://www.facebook.com/uniqrjsp">
+                            <img src="assets/images/facebook.png" class="control-ico">    
+                        </a>
+                        <a class="btn btn-light-warning" style="max-width:140px;"  href="https://www.instagram.com/grupo_uniq/?hl=pt-br">
+                            <img src="assets/images/instagram.png" class="control-ico">    
+                        </a>                  
                     </address>
                 </div>
             </div>                
         </section>
         <footer class="bg-light mb-0 pb-0" style="overflow:hidden;">
-            <div class=" text-center py-5 ">
+            <div class="text-center">
                 <h5 class="display-5">Grupo Uni<code class="l">Q</code> © 2019. Alguns direitos reservados </h5>
                 <hr>
                 <p class="mb-0 pb-0">
@@ -106,7 +101,5 @@
         <script type="text/javascript" src="assets/js/jquery-3.4.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.js"></script>
         <script type="text/javascript" src="assets/js/script.js"></script>
-        
-        <!--Aqui em baixo vem o seu JS-->
     </body>
 </html>
