@@ -1,13 +1,13 @@
 $(document).ready(function() {
-    $("#jclickform01").submit(function () {
+    $("#jcontrol").submit(function () {
         //variaveis locais
         var _dados = $(this).serializeArray();
         var _urlphp = $(this).attr("action");
-        var _seletoralert = $(".jdplustrigger");
-        var _seletorBtn = $(".jdplustrigger-btn");
-        var _seletorEnviando = $(".jdplustrigger-enviando");
-        var _seletorErro = $(".jdplustrigger-erro");
-        var _seletorSucesso = $(".jdplustrigger-sucesso");
+        var _seletoralert = $(".j_seletor");
+        var _seletorBtn = $(".btn-primary");
+        var _seletorEnviando = $("#j_enviando");
+        var _seletorErro = $("#j_error");
+        var _seletorSucesso = $("#j_sucesso");
         
         //requisicao Ajax
         $.ajax({
@@ -22,6 +22,7 @@ $(document).ready(function() {
                 
             },
             success: function(data) {
+              //variaveis locais 
                 var _error = data.error;
                 
                 //esconder mensagem de enviando
@@ -31,12 +32,14 @@ $(document).ready(function() {
                         if(!_error) {
                                 _seletorSucesso.fadeIn(1000);
                            }else{
-                                _seletorErro.fadeIn(100);
+                                _seletorErro.fadeIn(500);
                            }
-                        //esconder os tickets - seja qual fot
-                       
+                        //esconder os tickets - seja qual for
+                        //setTimeout(function(){
+                          //  _seletoralert.fadeOut();
+                        //},5500);
                     });    
-                },5500);
+                },3500);
             }
         });
         return false;

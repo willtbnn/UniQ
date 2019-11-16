@@ -4,7 +4,7 @@
             <h2 class="display-2"><a href="#portifolio" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
         </div>
 </header>
-<section class="bg-light p-sm-5 row">
+<section class=" container-fluid bg-light p-sm-5 row">
     <div class="col-lg-4">
         <img src="assets/images/corporativo/projeto%20(2).png" class="img-fluid d-none d-md-block connn">
     </div>
@@ -21,7 +21,7 @@
         <img src="assets/images/corporativo/projeto.png" class="img-fluid connn">
     </div>
 </section>
-<article class="bg-dark text-center text-light pt-5 pb-5" id="portifolio">
+<article class="container-fluid bg-dark text-center text-light pt-5 pb-5" id="portifolio">
     <span class="h6 d-block">UniQ Coporativo</span>
     <h2 class="display-4 font-weight-bold">Nosso Portifólio</h2>
     <p class="lead">Confira nossos serviços </p>

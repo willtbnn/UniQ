@@ -14,7 +14,7 @@ include_once 'PHPMailer/class.phpmailer.php';
 
 //enviando o e-mail utilizando a classe PHPMailer
 $Mailer = new PHPMailer;
-$Mailer->Charset = 'utf-8';
+$Mailer->Charset = 'utf8';
 //$Mailer->SMTPDebug = 3;
 $Mailer->IsSMTP();
 $Mailer->Host = 'grupouniq.com.br';
@@ -31,15 +31,17 @@ $Mailer->IsHTML(true);
 $Mailer->Subject = "Cliente - {$Nome}".date("H:i")." - ".date("d/m/Y");
 $Mailer->Body = "
 <html>
+    <head>
+    <meta charset='utf-8'>
+    </head>
     <body>
         <h1>Mensagem recebida atraves do site </h1>
-        <p>Nome do cliente:<strong>  $Nome </strong><br/></p>
-        <p>E-mail:<strong> $Email </strong><br/></p>
-        <p>Tipo de serviço<strong> $selecao </strong><br/></p>
-        <p>Mensagem:<strong> $msg </strong><br/></p>
+        <p>Nome do cliente:<strong>  {$Nome} </strong><br/></p>
+        <p>E-mail:<strong> {$Email} </strong><br/></p>
+        <p>Tipo de serviço<strong> {$selecao} </strong><br/></p>
+        <p>Mensagem:<strong> {$msg} </strong><br/></p>
     </body>
 </html>";
-$Mailer->Send();
 //Verificação
 if($Mailer->Send()){
     $Json['error'] = false;

@@ -109,8 +109,7 @@ body{
     background-image:url(../images/uniq_fundo.jpeg);
     background-repeat:no-repeat;
     width:100%;
-    height: 30.8em;
-    background-attachment:fixed;
+    height: 40.8em;
 }
 /*
 cor box shadow #E0FFFF #696969 voltado para pagina planejados
@@ -268,47 +267,13 @@ voltado para pagina planejados
     cursor:pointer;
 }
 /* Fim - Cada modal tem um fundo diferente */
-/*Trigger*/
-#dplustrigger-enviando{
-    background-color: #ff7d27;    
-}
-#dplustrigger-sucesso{
-  color: #155724;
-  background-color: #d4edda;
-  border-color: #c3e6cb;
-}
 
-#dplustrigger-sucesso hr {
-  border-top-color: #b1dfbb;
-}
 
-#dplustrigger-sucesso {
-    color: #0b2e13;
-}
-#dplustrigger-erro{
-    background-color: #b43d3d;    
-}
-.jdplustrigger{
-    display: none;
-  position: relative;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-}
-.dplustrigger-text{
-    text-align: center;
-    font-family: sans-serif;
-    color:#fff;
-}
 @media (max-width: 900px) {
-    .lead{
-        display:none;
-    }
+    
 }        
 /* cooporativo*/
 .pbc{
-    overflow: hidden;
     margin-top:2em;
     background-size:100% 100%;
     background-image:url(../images/corporativo/desenho_predio.png);
@@ -325,7 +290,7 @@ voltado para pagina planejados
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .9);
 }
 .connn{
-    max-width:400px;
+    max-width:350px;
 }
 .text-coporativo{
     color:rgb(135, 75, 15);
@@ -399,4 +364,8 @@ voltado para pagina planejados
 .numeros-encima {
     margin-right: 1000px !important;
     max-width:50px;
+}
+/* retorno para o cliente ao preenche o formulario pagina pedidos*/
+#j_sucesso, #j_enviando, #j_error{
+    display:none;
 }

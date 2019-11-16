@@ -64,7 +64,7 @@
                         <ul class="list-unstyled">
                             <li>Tel.:<a href="tel:(11)5531-4889">(11)5531-4889</a></li>
                             <li>Cel.:<a href="tel:(11)94016-2666">(11)94016-2666</a></li>
-                            <li>Whatsapp:<a href="tel:(11)94016-2666">(11)94016-2666</a></li>
+                            <li>Whatsapp:<a href="https://wa.me/5511940162666">(11)94016-2666</a></li>
                             <li>E-mail:<a href="email:contato@grupouniq.com.br">contato@grupouniq.com.br</a></li>
                         </ul>
                     </address>
@@ -72,17 +72,17 @@
                         <h4 class="h3">Rio de Janeiro</h4>
                         <ul class="list-unstyled">
                             <li>Cel.:<a href="tel:(21)98177-5661">(21)98177-5661</a></li>
-                            <li>Whatsapp:<a href="tel:(21)98177-5661">(21)98177-5661</a></li>
-                            <li>E-mail:<a href="email:contato@grupouniq.com.br">contato@grupouniq.com.br</a></li>
+                            <li>Whatsapp:<a href="https://wa.me/5511940162666">(21)98177-5661</a></li>
+                            <li>E-mail:<a href="emailto:contato@grupouniq.com.br">contato@grupouniq.com.br</a></li>
                         </ul>
                     </address>
                     <address class="cols-sm-12 col-lg-4">
                         <h7 class="h3">Siga-nos nas redes </h7>
                         <a class="btn btn-light-warning" style="max-width:140px;"  href="https://www.facebook.com/uniqrjsp">
-                            <img src="assets/images/facebook.png" class="control-ico">    
+                            <img src="assets/images/icones/facebook.png" class="control-ico">    
                         </a>
                         <a class="btn btn-light-warning" style="max-width:140px;"  href="https://www.instagram.com/grupo_uniq/?hl=pt-br">
-                            <img src="assets/images/instagram.png" class="control-ico">    
+                            <img src="assets/images/icones/instagram.png" class="control-ico">    
                         </a>                  
                     </address>
                 </div>
