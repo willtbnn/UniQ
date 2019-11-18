@@ -369,3 +369,67 @@ voltado para pagina planejados
 #j_sucesso, #j_enviando, #j_error{
     display:none;
 }
+/* Pagina contrução e serviços*/
+.servicos-bg{
+    background-size: 100% 100%;
+    background-image:url(../images/servicos.png);
+    background-repeat: no-repeat;
+}
+.borda-cons{
+    height: 10px;
+    background-color:rgb(8,77,110);
+}
+.construcao-1{
+    background-size:100% 100%;
+    background-image: url(../images/construcao/construcao_civil.png);
+    background-repeat:no-repeat;
+    height: 10.8em;
+}
+.construcao-2{
+    background-size:100% 100%;
+    background-image: url(../images/construcao/instalacao-hidraulicas.jpg);
+    background-repeat:no-repeat;
+    height: 10.8em;
+}
+.construcao-3{
+    background-size:100% 100%;
+    background-image: url(../images/construcao/drywall.png);
+    background-repeat:no-repeat;
+    height: 10.8em;
+}
+.construcao-4{
+    background-size:100% 100%;
+    background-image: url(../images/construcao/manutencao-predial.jpeg);
+    background-repeat:no-repeat;
+    height: 10.8em;
+}
+.construcao-5{
+    background-size:100% 100%;
+    background-image: url(../images/construcao/desenho_predio2.png);
+    background-repeat:no-repeat;
+    height: 10.8em;
+}
+.construcao-6{
+    background-size:100% 100%;
+    background-image: url(../images/construcao/reforma-de-casa.jpg);
+    background-repeat:no-repeat;
+    height: 10.8em;
+}
+.construcao-1, .construcao-2, .construcao-3,.construcao-4,.construcao-5,.construcao-6:hover{
+    cursor: pointer;
+}
+.sombra-branca, .sombra-branca-2,.sombra-branca-3,.sombra-branca-4,.sombra-branca-5,.sombra-branca-6{
+   box-shadow: -20px 10px 10px 20px #fff; 
+   display:none;
+}
+.bg-construcao{
+    background-size:100% 100%;
+    background-image: url(../images/construcao/rd\ \(11\).jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    height: 30.8em;
+    box-shadow: inset 0 0 0 15px rgb(8,77,110);
+}
+.texto-constr{
+    color:rgb(8, 77, 110);
+}
