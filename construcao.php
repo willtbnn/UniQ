@@ -37,7 +37,7 @@
     <div class="container row  py-5">
         <div class="col-4"></div>
         <div class="col-md-7 col-sm-12  align-self-end">
-        <h2>SOLUÇÃO PARA TODAS TIPOS DE OBRAS.</h2>
+        <h2>SOLUÇÃO PARA TODOS TIPOS DE OBRAS.</h2>
         <p class="lead">Com um equipe qualificada e dedicada, com alto nível de precisão e prazo apropriados as necessidades para a sua obra ou serviços.</p>
         </div>
     </div>

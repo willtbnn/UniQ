@@ -1,7 +1,7 @@
 <header class="container-fluid pt-5 pb-5 headesolar-fundo mb-0">
     <div class="container text-center">
         <img class="img-fluid py-5 icon" src="assets/images/slogan/energia_solar.png"/>
-        <h1>Página em Construção</h1>
+        <h1></h1>
     </div>
 </header> 
 <div class="text-center align-self-center mt-0 p-5 anime-fotovoltaicoazul">
@@ -148,30 +148,30 @@
 </article>
 <article class="container text-center mt-5">
     <span class="h6 text-success">PRINCIPAIS VANTAGENS</span>
-    <h5 class="display-4 text-warning">Aproveite</h5>
+    <h5 class="display-4 text-warning mb-5">Aproveite</h5>
     <div class="row align-items-center">
-        <div class="col-lg-6 col-sm-12 mt-3">
-            <img src="assets/images/solar/Economia.png">
-            <p class="h5">Economia de até 95% em sua conta de luz.</p>
-        </div>
         <div class="col-lg-6 col-sm-12 mt-5">
-            <img src="assets/images/solar/inflacao.png">
+            <img src="assets/images/icones/economia-95.png" class="img-fluid" style="max-width:180px">
+            <p class="h5 mt-2">Economia de até 95% em sua conta de luz.</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 ">
+            <img src="assets/images/icones/inflacao.png" class="img-fluid" style="max-width:220px">
             <p class="h5">Sua conta de luz imune à inflação energética.</p>
         </div>
         <div class="col-lg-6 col-sm-12 mt-5">
-            <img src="assets/images/solar/carteira.png">
+            <img src="assets/images/icones/investimento.png" class="img-fluid" style="max-width:220px">
             <p class="h5">Um ótimo investimento com alto retorno.</p>
         </div>
-        <div class="col-lg-6 col-sm-12 mt-5">
-            <img src="assets/images/solar/valorizacao.png">
-            <p class="h5">A valorização do seu imóvel é imediata.</p>
+        <div class="col-lg-6 col-sm-12 ">
+            <img src="assets/images/icones/valorizacao.png" class="img-fluid" style="max-width:280px">
+            <p class="h5 mt-3">A valorização do seu imóvel é imediata.</p>
         </div>
-        <div class="col-lg-6 col-sm-12 mt-5">
-            <img src="assets/images/solar/paineis.png">
+        <div class="col-lg-6 col-sm-12 mt-2">
+            <img src="assets/images/icones/paineis.png" class="img-fluid" style="max-width:280px">
             <p class="h5">Painéis solares com até 25 anos de vida útil.</p>
         </div>
         <div class="col-lg-6 col-sm-12 mt-5">
-            <img src="assets/images/solar/parcele.png">
+            <img src="assets/images/icones/lading.png" class="img-fluid" style="max-width:220px">
             <p class="h5">Instale agora e parcele em até 60 meses.</p>
         </div>
     </div>

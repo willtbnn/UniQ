@@ -3,6 +3,6 @@
         <img class="img-fluid py-5 icon" src="assets/images/slogan/moveis.png"/>
         <h1 class="h2">Pagina em construção </h1>
         <p class="lead">Mais sinta-se a vontade para pedir seu orçamento, temos uma equipe especializada, pronta para atender.</p>
-    <h2 class="display-2"><a href="pedidos.php" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Peça Orçamento</a></h2>
+    <h2 class="display-2"><a href="pedidos" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Peça Orçamento</a></h2>
     </div>
 </section>
