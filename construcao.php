@@ -131,5 +131,16 @@
         <div class="col-md-2 col-sm-4 pt-2">
             <img src="assets/images/construcao/cliente-fonercedores/wtorres.png" class="img-fluid">
         </div>
+        <div class="col-md-2 col-sm-4 pt-2">
+            <img src="assets/images/construcao/cliente-fonercedores/INTZ.jpeg" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-sm-4 pt-2">
+            <img src="assets/images/construcao/cliente-fonercedores/comta.jpeg" class="img-fluid">
+        </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col controlm" >
+            <img src="assets/images/construcao/cliente-fonercedores/loft.jpeg" class="img-fluid">
+        </div>
     </div>
 </article>

@@ -1,7 +1,7 @@
 <header class="container-fluid pb pt-5">
         <div class="container text-center text-dark ml-md-auto ">
             <img class="img-fluid py-5 icon" src="assets/images/slogan/Planejado.png"/>
-            <h2 class="display-2"><a href="#" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
+            <h2 class="display-2"><a href="#portifolio" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
         </div>
 </header>
 <article class="d-flex align-items-center mt-5">
@@ -15,7 +15,7 @@
                     Mas a regra é uma só para todos: conforto e aconchego.<br/>
                     O Home Theater: Os cineminhas particulares entraram com tudo na nossa decoração e agora precisamos nos preocupar com a parte elétrica, para os equipamentos que são muitos.
                     Além de espaços que serão ocupados por grandes sofás, poltronas, chaises, almofadas, pufes e tapetes.</p>
-                    <h2 class="display-2 d-block ml-5 "><a href="pedidos.php" class="btn btn-trans btn-outline-warning  mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
+                    <h2 class="display-2 d-block ml-5 "><a href="pedidos" class="btn btn-trans btn-outline-warning  mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
                 </div>
             </div>
             <div class="col-xl-6 col-md-12">
@@ -86,7 +86,7 @@
                     <div class="contanier ml-5">
                         <span class="h2 d-block font-weight-bolder">Dormitórios</span>
                         <p class="lead">Nem sempre é possível ter um quarto espaçoso, por isso uma das maneiras mais simples de solucionar o problema de espaço é criar um ambiente planejado, pois projetar cada centímetro do cômodo desejado fará com que o espaço seja utilizado de maneira inteligente, correta e com isso criando um ambiente personalizado com as características e preferências dos moradores.</p>
-                        <h2 class="display-2 d-block ml-5"><a href="pedidos.php" class="btn btn-trans btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
+                        <h2 class="display-2 d-block ml-5"><a href="pedidos" class="btn btn-trans btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                     <p class="lead">Banheiros planejados são ótimas opções de projetos bem pensados para sempre se aproveitar o máximo de um ambiente. No caso de banheiros, que muitas vezes são lugares com menos espaço, torna-se importantíssimo usar móveis que se adeqüem ao ambiente.
                     Banheiros planejados devem ser bem pensados, para atender as necessidades de todos que irão utilizar daquele ambiente.
                     Se você tem espaço de sobra no banheiros, faça um bom planejamento, assim você poderá utilizar banheiras e deixar seu banheiro com um conforto a mais.</p>
-                <h2 class="display-2 d-block ml-5"><a href="pedidos.php" class="btn  btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
+                <h2 class="display-2 d-block ml-5"><a href="pedidos" class="btn  btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
                 </div>
             </div>
             <div class="col-xl-6 col-md-12">
@@ -170,19 +170,21 @@
                 PORTAS ARTICULADAS
                 Facilita o acesso aos objetos e deixa o design mais limpo.
                 </p>
-                <h2 class="display-2 d-block ml-3"><a href="pedidos.php" class="btn btn-outline-warning btn-trans btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
+                <h2 class="display-2 d-block ml-3"><a href="pedidos" class="btn btn-outline-warning btn-trans btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
                 </div>
             </div>
                 </div>
         </div>
 </article>
-<article class="container-fluid py-5 mt-5 bg-dark text-center text-light portifoliof" id="quem">
+<article class="container-fluid py-5 mt-5 bg-dark text-center text-light portifoliof" id="portifolio">
     <span class="h6 d-block">UniQ móveis planejados</span>
     <h2 class="display-4 font-weight-bold">Nosso Portfólio </h2>
     <p class="lead ">Confira alguns serviços feitos por nós! </p>
     <hr>
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="assets/videos/UniQinteriores.mp4" allowfullscreen></iframe>
+    <section class="video">
+        <video poster="assets/images/slogan/Planejado.png" controls width="483">
+          <source src="assets/videos/UniQinteriores.mp4" type="video/mp4">
+        </video>
     </div>
     <!--Conteudo Serviços-->
     <div class="container">

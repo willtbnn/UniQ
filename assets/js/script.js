@@ -66,3 +66,11 @@ $(function(){
         $('.sombra-branca-6').fadeToggle();
     });
 });
+$(function(e){
+    $('.btn').click(function(){
+		$('html, body').animate({scrollTop: $('#portifolio').offset().top }, 2000);
+	});
+    $('ul li:nth-child(1)').click(function(){
+		$('html, body').animate({scrollTop: $('#quem').offset().top }, 3000);
+	});
+});
