@@ -390,7 +390,7 @@
         </div>
     </div>
     <div class=" d-flex justify-content-center">
-        <h2 class="display-2 ml-5"><a href="pedidos.php" class="btn btn-trans  btn-outline-warning btn-lg  bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
+        <h2 class="display-2 ml-5"><a href="pedidos" class="btn btn-trans  btn-outline-warning btn-lg  bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
     </div>
 </article>
 

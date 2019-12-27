@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <title>Grupo UniQ - Alto Padrão</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta name="Grupo UniQ" description="Móveis planejados, Móveis, Casa Planejada, Alto padrão, UniQ construtora, UniQ planejados">
-        <meta name="Uniq moveis" description="Móveis planejados, Móveis, Casa Planejada, Alto padrão, Uniq construtora, Uniq planejados">
+        <meta name="Grupo UniQ" description="Móveis planejados, Móveis, Casa Planejada, Alto padrão, Uniq construtora, UniQ planejados">
+        <meta name="Uniq moveis" description="Móveis planejados, Móveis, Casa Planejada, Alto padrão, Uniq construtora, Uniq planejados, Mesas resina italiana, aparadores, moveis em resina, resina poliester">
         <meta name="Uniq solar" description="Energia fotovoltaica,solar energy, Uniq planejados,placa solar, energia renovavel, energia auto sustentavel, obra, construção">
         <meta name="Uniq corporativo" description="marcenaria profissional, moveis corporativo, empresa especializada">
         <meta name="Uniq planejados" description="Uniq alto padrão, Uniq planejados alto padrão, Uniq casa do seu jeito">
         <meta name="Uniq construção e serviços" description="Todos os serviços de que você precisa em um so lugar, solução para todos tipos de obras, Drywall, instalações, montagem, limpeza, comercio de materias de construção, gesso, stell frame, forros, divisórias, forros removivos, pisos">
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
-        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600&display=swap" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="assets/images/slogan/shout.png" type="image/png">
         <link rel="stylesheet" href="assets/css/bootstrap.css"/>
         <link rel="stylesheet" href="assets/css/style.css"/>
@@ -107,6 +107,10 @@
         </footer>
         <script type="text/javascript" src="assets/js/jquery-3.4.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        <!--<script type="text/javascript" src="assests/js/lightzoom.js"></script>-->
         <script type="text/javascript" src="assets/js/script.js"></script>
+        <script>
+        
+        </script>
     </body>
 </html>
