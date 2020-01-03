@@ -1,64 +1,60 @@
-<header class="container-fluid m-0 p-0" style="overflow:hidden;" >
-    <div class="row text-dark ">
-        <div class="col-lg-6 p-0">
-            <div class="planejados">
+<header class="container-fluid m-0 p-0 bottom" style="overflow:hidden;" >
+    <div class="row melhoria justify-content-center ml-lg-5">
+        <a class="col-lg-2 col-sm-12 p-0" href="#">
+            <div class="planejados py-5">
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
-                        <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/moveis.png"/>
-                        <a href="moveis" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <img class="img-fluid" src="assets/images/slogan/moveis.png"/>
+                        
                     </div>
                 </div>   
             </div>
-        </div>
-        <div class="col-lg-6 p-0">
-            <div class="moveis">
+        </a>
+        <a class="col-lg-2 col-sm-12 p-0" href="#">
+            <div class="moveis py-5">
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3 ">
-                        <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/Planejado.png"/>
-                        <a href="planejados" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <img class=" img-fluid " src="assets/images/slogan/Planejado.png"/>
+                        
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</header>
-<header class="container-fluid m-0 p-0" style="overflow:hidden;">
-    <div class="row bg-light text-dark">
-        <div class="col-lg-4 p-0">
+        </a>
+        <a class="col-lg-2 col-sm-12 p-0" href="#">
             <div class="corporativo py-5 ">
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
-                        <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/corporativo.png"/>
-                        <a href="corporativo" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <img class="img-fluid " src="assets/images/slogan/corporativo.png"/>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-4 p-0">
+        </a>
+    </div>
+    <div class="row justify-content-end">
+        <a class="col-lg-2 p-0" href="#">
             <div class="servicos py-5">
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
-                        <img class="mt-5 pt-5 img-fluid  " src="assets/images/slogan/construcao.png"/>
-                        <a href="construcao" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <img class="img-fluid" src="assets/images/slogan/construcao.png"/>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-4 p-0">
+        </a>
+        <a class="col-lg-2 p-0" href="#">
             <div class="solar py-5">
                 <div class="container py-5">
                     <div class="col-md-6 offset-md-3">
-                        <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/energia_solar.png" />
-                        <a href="solar" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <img class="img-fluid" src="assets/images/slogan/energia_solar.png" />
                     </div>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
 </header>
 <!-- aplica JS Rafael Bucard-->
-<article class="container-fluid bg-light py-5 grupo" id="quem"> 
-        <div class="row">
+<article class="container-fluid bg-light py-5 grupo" id="quem">
+    <div class="container">
+        <div class="row text-white">
             <div class="container mb-0 col-xl-6 col-md-12 p-sm-0"> 
                 <blockquote class="blockquote">
                   <footer class="blockquote-footer">sobre o grupo uni<code class="l">Q</code></footer>
@@ -77,7 +73,7 @@
                 Trabalhamos de forma flexível para atender com maior qualidade e sofisticação todos os perfis de clientes, com o objetivo sempre de superar as expectativas.
                 </p>
             </div>
-            <div class="col-xl-6 col-md-12 p-5">
+            <div class="col-xl-6 col-md-12 pt-lg-5 pl-lg-5">
                 <blockquote class="blockquote">
                     <footer class="blockquote-footer">Vantagens</footer>
                 </blockquote>
@@ -95,6 +91,7 @@
                 <div class="borda"></div>
             </div>
         </div>
+    </div>
 </article>
 <section class="p-0 bg-dark text-center container-fluid">
     <div class="">

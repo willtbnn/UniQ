@@ -4,7 +4,9 @@ body{
     margin: 0;
     overflow-x:hidden;
 }
-
+.nada{
+    display: none;
+}
 .borda{
     width:40px;
     background-color:rgb(223,143,32);
@@ -13,7 +15,7 @@ body{
 }
 .grupo {
     background-size:100% 100%;
-    background-image:url(../images/grupo_UniQ_fundo.png);
+    background-image:url(../images/Fundocopua.png);
     background-repeat:no-repeat;
 }
 .btn-trans{
@@ -52,52 +54,54 @@ body{
     height: 400px;
 }
 /*fim da area do JS Rafael*/
-.planejados {
+.bottom{
+    background-image: url(../images/01.jpg);
     background-size:100% 100%;
-    background-image:url(../images/planejados.jpg);
-    background-repeat:no-repeat;
-    width:100%;
-    height: 30.8em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.melhoria{
+    margin-top: 9em;
+}
+.planejados {
+    background-color: #F5DEB3;
+    border-radius: 50%;
+    margin: 2em;
 }
 .planejados:hover {
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
+    transform: translate3d(10,100,0);
+	transition: .8s;
+    border: solid 1px #ccc;
 }
 .moveis {
-    background-size:100% 100%;
-    background-image:url(../images/52825826_564805314030104_2139161311345377280_n.png);
-    background-repeat:no-repeat;
-    width:100%;
-    height: 30.8em;    
+    background-color: #8B4513;
+    border-radius: 50%;
+    margin: 2em;
 }
 .moveis:hover {
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .corporativo {
-    background-size:100% 100%;
-    background-image:url(../images/empresas.png);
-    background-repeat:no-repeat;
-    width:100%;
-    height: 30.8em;
+    background-color: rgb(204,149,67);
+    border-radius: 50%;
+    margin: 2em;
 }
 .corporativo:hover{
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .servicos {
-    background-size:100% 100%;
-    background-image:url(../images/servicos.png);
-    background-repeat:no-repeat;
-    width:100%;
-    height: 30.8em;    
+    background-color: rgb(204, 225, 51);
+    border-radius: 50%;
+    margin: 2em;
 }
 .servicos:hover{
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .solar {
-    background-size:100% 100%;
-    background-image:url(../images/solar.png);
-    background-repeat:no-repeat;
-    width:100%;
-    height: 30.8em;    
+    background-color: rgb(8,77,110);
+    border-radius: 50%;
+    margin: 2em;
 }
 .solar:hover{
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
@@ -266,10 +270,6 @@ voltado para pagina planejados
 }
 /* Fim - Cada modal tem um fundo diferente */
 
-
-@media (max-width: 900px) {
-    
-}        
 /* cooporativo*/
 .pbc{
     margin-top:2em;

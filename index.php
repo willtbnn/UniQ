@@ -17,8 +17,8 @@
         <link rel="stylesheet" href="assets/css/style.css"/>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 box-shadow mb-5">
-            <a class="navbar-brand ml-md-5" href="https://grupouniq.com.br">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 mb-5">
+            <a class="navbar-brand ml-md-5" href="https://grupouniq.com.br/UniQ">
                 <img src="assets/images/slogan/slogan.png" style="width:200px;height:50px;" />
             </a>
             <buttom class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,6 +50,7 @@
                 </ul>
             </div>
         </nav>
+        
         <?php
             $url = (isset($_GET['url'])) ? $_GET['url']:'home.php';
             $url = array_filter(explode('/',$url));
@@ -63,6 +64,7 @@
             include 'home.php';
         }
         ?>
+       
         <section class="text-dark py-5">
             <div class="container">
                 <div class="row">
