@@ -21,7 +21,7 @@
         <img src="assets/images/corporativo/projeto.png" class="img-fluid connn">
     </div>
 </section>
-<article class="container-fluid bg-dark text-center text-light pt-5 pb-5" id="portifolio">
+<article class="container-fluid corporativo-bg text-center pt-5 pb-5 text-coporativo" id="portifolio">
     <span class="h6 d-block">UniQ Coporativo</span>
     <h2 class="display-4 font-weight-bold">Nosso Portifólio</h2>
     <p class="lead">Confira nossos serviços </p>
@@ -108,10 +108,10 @@
     </section>
     <hr>
 </article>
-<article class="pt-5 pb-5 mt-0 container-fluid pg-empresa">
+<article class="pt-5 pb-5 mt-0 container-fluid pg-empresa ">
     <div class="container">
-    <p class="h5 text-light">
-     UniQ corporativo é uma empresa especializada no fornecimento de marcenaria corporativa personalizada para todo projeto de arquitetura e design. Isso inclui recepções, escritórios, soluções de armazenamento, estações de trabalho, móveis para áreas operacionais, ergonomia para mobiliário de escritório, plataforma de trabalho, mesa de reunião, shopfronts, displays, pf, standys, projetos personalizados corporativos e comerciais.
+    <p class="h5 text-coporativo">
+     UniQ corporativo é uma emvpresa especializada no fornecimento de marcenaria corporativa personalizada para todo projeto de arquitetura e design. Isso inclui recepções, escritórios, soluções de armazenamento, estações de trabalho, móveis para áreas operacionais, ergonomia para mobiliário de escritório, plataforma de trabalho, mesa de reunião, shopfronts, displays, pf, standys, projetos personalizados corporativos e comerciais.
     </p>
     </div>
     <div class="row justify-content-center">
