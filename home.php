@@ -2,7 +2,7 @@
     <div class="row text-dark ">
         <div class="col-lg-6 p-0">
             <div class="planejados">
-                <div class="container py-5">
+                <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/moveis.png"/>
                         <a href="moveis" class="my-5 btn btn-outline-light">Saiba mais</a>
@@ -12,7 +12,7 @@
         </div>
         <div class="col-lg-6 p-0">
             <div class="moveis">
-                <div class="container py-5">
+                <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3 ">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/Planejado.png"/>
                         <a href="planejados" class="my-5 btn btn-outline-light">Saiba mais</a>
@@ -26,7 +26,7 @@
     <div class="row bg-light text-dark">
         <div class="col-lg-4 p-0">
             <div class="corporativo py-5 ">
-                <div class="container py-5">
+                <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/corporativo.png"/>
                         <a href="corporativo" class="my-5 btn btn-outline-light">Saiba mais</a>
@@ -36,7 +36,7 @@
         </div>
         <div class="col-lg-4 p-0">
             <div class="servicos py-5">
-                <div class="container py-5">
+                <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid  " src="assets/images/slogan/construcao.png"/>
                         <a href="construcao" class="my-5 btn btn-outline-light">Saiba mais</a>
@@ -46,7 +46,7 @@
         </div>
         <div class="col-lg-4 p-0">
             <div class="solar py-5">
-                <div class="container py-5">
+                <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/energia_solar.png" />
                         <a href="solar" class="my-5 btn btn-outline-light">Saiba mais</a>
