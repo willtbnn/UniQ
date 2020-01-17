@@ -61,10 +61,10 @@
         <div class="row">
             <div class="container mb-0 col-xl-6 col-md-12 p-sm-0"> 
                 <blockquote class="blockquote">
-                  <footer class="blockquote-footer">sobre o grupo uni<code class="l">Q</code></footer>
+                  <h1 class="blockquote-footer">Grupo Uni<code class="l">Q</code></h1>
                 </blockquote>
-               <h3 class="h5">JOVEM, OUSADA
-                        E INOVADORA<br/></h3>
+               <h2 class="h5">JOVEM, OUSADA
+                        E INOVADORA<br/></h2>
                 <p>
                     Somos uma empresa conhecida pelo atendimento diferenciado a nossos clientes, e ficaremos muito satisfeitos em poder realizar o seu projeto personalizado de mobiliário, com total assistência de nossos consultores especializados, nossa equipe de projetos e equipe de pós-vendas.
                     Os diretores da empresa são profissionais com dedicação em tempo integral à fábrica, contando com mais de 20 anos de experiência e premiados em Programas de Excelência do mercado.<br/>
@@ -96,7 +96,7 @@
             </div>
         </div>
 </article>
-<section class="p-0 bg-dark text-center container-fluid">
+<section class="p-0 text-center container-fluid nf">
     <div class="">
         <p class="text-light display-1 p-0">v</p>
         <span class="h6 d-block text-light"> Orçamento sem compromisso</span>

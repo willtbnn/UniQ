@@ -4,7 +4,9 @@ body{
     margin: 0;
     overflow-x:hidden;
 }
-
+.nf{
+    background-color:#573d1c;
+}
 .borda{
     width:40px;
     background-color:rgb(223,143,32);
@@ -44,7 +46,9 @@ body{
     color:#1C1C1C;
 }
 .l {
-    color:rgb(223,143,32);
+    color: rgb(223,143,32);
+    font-size: 1.4em;
+    font-family: sans-serif;
 }
 .rafael{
     background-color:#FFDAB9;
@@ -53,61 +57,55 @@ body{
 }
 /*fim da area do JS Rafael*/
 .planejados {
-    background-size:100% 100%;
+    background-size:100% 30.8em;
     background-image:url(../images/planejados.jpg);
     background-repeat:no-repeat;
-    width:100%;
-    height: 30.8em;
 }
 .planejados:hover {
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .moveis {
-    background-size:100% 100%;
+    background-size:100% 30.8em;
     background-image:url(../images/52825826_564805314030104_2139161311345377280_n.png);
     background-repeat:no-repeat;
-    width:100%;
-    height: 30.8em;    
 }
 .moveis:hover {
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .corporativo {
-    background-size:100% 100%;
+    background-size:100% 30.8em;
     background-image:url(../images/empresas.png);
     background-repeat:no-repeat;
-    width:100%;
-    height: 30.8em;
 }
 .corporativo:hover{
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .servicos {
-    background-size:100% 100%;
+    background-size:100% 30.8em;
     background-image:url(../images/servicos.png);
-    background-repeat:no-repeat;
-    width:100%;
-    height: 30.8em;    
+    background-repeat:no-repeat;   
 }
 .servicos:hover{
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .solar {
-    background-size:100% 100%;
+    background-size:100% 30.8em;
     background-image:url(../images/solar.png);
-    background-repeat:no-repeat;
-    width:100%;
-    height: 30.8em;    
+    background-repeat:no-repeat;    
 }
 .solar:hover{
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
+.bg-pri{
+    background-color:#573d1c;
+}
 .fpedidos {
-    background-size:100% 150%;
-    background-image:url(../images/uniq_fundo.jpeg);
+    background-size:100% 100%;
+    background-image:url(../images/fpedidos.png);
     background-repeat:no-repeat;
-    width:100%;
-    height: 40.8em;
+}
+.marginadd{
+    margin-top:8em;
 }
 /*
 cor box shadow #E0FFFF #696969 voltado para pagina planejados
@@ -149,8 +147,8 @@ voltado para pagina planejados
 /* Não indicado mais feito alteração no boostrap*/
 .b-link:hover{
     border-bottom: solid 3px rgb(223,143,32);
-	transform: translate3d(0,10,0);
-	transition: .10s;
+    transform: translate3d(0,10,0);
+	transition: .8s;
 }
 .portifolio1 {
     background-size:100% 31em;
@@ -277,21 +275,24 @@ voltado para pagina planejados
     background-image:url(../images/corporativo/desenho_predio.png);
     background-repeat:no-repeat;
     background-attachment:fixed;
-    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .9);
+    box-shadow: inset 550px 550px 550px 550px rgba(244, 247, 190, .5);
 }
 .pg-empresa{
-    margin-top:2em;
-    background-image:url(../images/corporativo/marcenaria.jpg);
+    background-image:url(../images/corporativo/FotodeStockSnap.jpg);
     background-repeat:no-repeat;
     background-size:100% 100%;
     background-attachment:fixed;
-    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .9);
+    box-shadow: inset 550px 550px 550px 550px rgba(244, 247, 190, .5);
 }
 .connn{
     max-width:350px;
 }
 .text-coporativo{
-    color:rgb(135, 75, 15);
+    color:#1e000e;
+}
+.corporativo-bg{
+    
+    background-color:#e5f77d;
 }
 /* solar*/
 .headesolar-fundo{
@@ -375,7 +376,7 @@ voltado para pagina planejados
 }
 .borda-cons{
     height: 10px;
-    background-color:rgb(8,77,110);
+    background-color:#084dbe;
 }
 .construcao-1{
     background-size:100% 100%;
@@ -408,29 +409,29 @@ voltado para pagina planejados
     height: 10.8em;
 }
 .construcao-6{
-    background-size:100% 100%;
+    background-size:100% 10.8em;
     background-image: url(../images/construcao/reforma-de-casa.jpg);
     background-repeat:no-repeat;
-    height: 10.8em;
 }
 .construcao-1, .construcao-2, .construcao-3,.construcao-4,.construcao-5,.construcao-6:hover{
     cursor: pointer;
 }
 .sombra-branca, .sombra-branca-2,.sombra-branca-3,.sombra-branca-4,.sombra-branca-5,.sombra-branca-6{
-   box-shadow: -20px 10px 10px 20px #fff; 
+    background-color:#084dbe;
+   box-shadow: -20px 10px 10px 20px #084dbe; 
    display:none;
 }
 .bg-construcao{
-    background-size:100% 100%;
+    background-size:100%  30.8em;
     background-image: url(../images/construcao/rd\ \(11\).jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
-    height: 30.8em;
     box-shadow: inset 0 0 0 15px rgb(8,77,110);
 }
 .texto-constr{
-    color:rgb(8, 77, 110);
+    color:#084dbe;
 }
+/*fim*/
 .controlm{
     width:40%
 }
@@ -467,11 +468,9 @@ li a{
     background-color: rgba(0,0,0,.6);
 }
 .bg-moveis{
-    background-size:100% 100%;
+    background-size:100% 40.2em;
     background-image:url(../images/moveis/fundo_moveis.png);
     background-repeat:no-repeat;
-    width:100%;
-    height: 40.2em;
     /*box-shadow: inset 50px 50px 55px 55px rgb(128,128,128);*/
 }
 @media (max-width:1000px){

@@ -2,8 +2,8 @@
 <?php //habilitando o cors
         header("Access-Control-Allow-Origin: *");?>
 
-<div class="container-fluid mt-5 py-5 fpedidos">
-    <div class="container pt-5 ">
+<div class="container-fluid mt-5 py-5 fpedidos ">
+    <div class="container marginadd ">
         <!--Sucesso no envio-->
         <div class="j_seletor alert alert-success" id="j_sucesso" role="alert" >
             <h4 class="alert-heading">Enviado com Sucesso!</h4>
@@ -11,7 +11,7 @@
             <hr>
             <p class="mb-0">Fique avontade, para conhecer mais sobre nossa empresa e parceiros.</p>
         </div>
-        <form id="jcontrol" class="bg-light rounded p-4 box-shadow" action="<?= HOME ?>/js/requisicao/requisicao.php">
+        <form id="jcontrol" class="bg-pri rounded p-4 box-shadow text-white" action="<?= HOME ?>/js/requisicao/requisicao.php">
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="nome"><b>Nome</b></label>

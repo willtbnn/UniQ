@@ -45,7 +45,8 @@ $(document).ready(function() {
         return false;
     });
 });
-//selecionando div
+//selecionando div na pagina construção
+/* testando uso de cssavançado
 $(function(){
     $('.construcao-1').bind('click', function(){
         $('.sombra-branca').fadeToggle();
@@ -65,7 +66,7 @@ $(function(){
     $('.construcao-6').bind('click', function(){
         $('.sombra-branca-6').fadeToggle();
     });
-});
+});*/
 $(function(e){
     $('.btn').click(function(){
 		$('html, body').animate({scrollTop: $('#portifolio').offset().top }, 2000);
