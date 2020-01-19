@@ -182,7 +182,7 @@
     <p class="lead ">Confira alguns serviços feitos por nós! </p>
     <hr>
     <section class="video">
-        <video poster="assets/images/slogan/Planejado.png" controls width="483">
+        <video class="control-video"  poster="assets/images/uniq-altopadrao.png" controls width="483">
           <source src="assets/videos/UniQinteriores.mp4" type="video/mp4">
         </video>
     </div>

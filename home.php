@@ -2,7 +2,7 @@
     <div class="row text-dark ">
         <div class="col-lg-6 p-0">
             <div class="planejados">
-                <div class="container py-5">
+                <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/moveis.png"/>
                         <a href="moveis" class="my-5 btn btn-outline-light">Saiba mais</a>
@@ -12,7 +12,7 @@
         </div>
         <div class="col-lg-6 p-0">
             <div class="moveis">
-                <div class="container py-5">
+                <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3 ">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/Planejado.png"/>
                         <a href="planejados" class="my-5 btn btn-outline-light">Saiba mais</a>
@@ -26,7 +26,7 @@
     <div class="row bg-light text-dark">
         <div class="col-lg-4 p-0">
             <div class="corporativo py-5 ">
-                <div class="container py-5">
+                <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/corporativo.png"/>
                         <a href="corporativo" class="my-5 btn btn-outline-light">Saiba mais</a>
@@ -36,7 +36,7 @@
         </div>
         <div class="col-lg-4 p-0">
             <div class="servicos py-5">
-                <div class="container py-5">
+                <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid  " src="assets/images/slogan/construcao.png"/>
                         <a href="construcao" class="my-5 btn btn-outline-light">Saiba mais</a>
@@ -46,7 +46,7 @@
         </div>
         <div class="col-lg-4 p-0">
             <div class="solar py-5">
-                <div class="container py-5">
+                <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3">
                         <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/energia_solar.png" />
                         <a href="solar" class="my-5 btn btn-outline-light">Saiba mais</a>
@@ -70,7 +70,7 @@
                     Os diretores da empresa são profissionais com dedicação em tempo integral à fábrica, contando com mais de 20 anos de experiência e premiados em Programas de Excelência do mercado.<br/>
                 </p>
                 <h4 class="h5 mb-0">EMPRESA<br/></h4><br/>
-                <p class="mt-0">O Grupo Uniq traz um novo conceito de móveis planejados, construção civil, reformas, projetos e acabamentos, sistema de energia fotovoltaica e aquecimento solar.
+                <p class="mt-0">O Grupo Uniq tem tudo para seu lar, da obra aos moveis e traz um novo conceito de móveis planejados, construção civil, reformas, projetos e acabamentos, sistema de energia fotovoltaica e aquecimento solar.
                 Com um formato inovador de atendimento que faz da UNIQ uma empresa comprometida com o cliente desde a assinatura do contrato até a entrega final dos projetos.
                 Realizamos o que há de mais moderno e sofisticado no segmento de planejados, tais como: Cozinhas, dormitórios, banheiros, home theaters, home offices, lavanderias, áreas de serviço e o segmento corporativo.
 

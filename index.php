@@ -1,16 +1,35 @@
 <!doctype html>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156459776-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156459776-1');
+        </script>
+
         <meta charset="utf-8">
         <title>Grupo UniQ - Alto Padrão</title>
+        <meta http-equiv="content-language" content="pt-br">
+        <meta name="title" content="Grupo Uniq - Alto Padrão">
+        <meta name="author" content="@jlbnunes">
+        <meta name="generator" content="VsCode">
+        <meta name="description" content="UniQ Alto padrão - Sua casa do seu jeito">
+        <meta name="application-name" content="Alto padrão">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta name="Grupo UniQ" description="Móveis planejados, Móveis, Casa Planejada, Alto padrão, Uniq construtora, UniQ planejados">
-        <meta name="Uniq moveis" description="Móveis planejados, Móveis, Casa Planejada, Alto padrão, Uniq construtora, Uniq planejados, Mesas resina italiana, aparadores, moveis em resina, resina poliester">
-        <meta name="Uniq solar" description="Energia fotovoltaica,solar energy, Uniq planejados,placa solar, energia renovavel, energia auto sustentavel, obra, construção">
-        <meta name="Uniq corporativo" description="marcenaria profissional, moveis corporativo, empresa especializada">
-        <meta name="Uniq planejados" description="Uniq alto padrão, Uniq planejados alto padrão, Uniq casa do seu jeito">
-        <meta name="Uniq construção e serviços" description="Todos os serviços de que você precisa em um so lugar, solução para todos tipos de obras, Drywall, instalações, montagem, limpeza, comercio de materias de construção, gesso, stell frame, forros, divisórias, forros removivos, pisos">
+        <meta name="Keywords" description="grupo uniq, Grupo UniQ - Alto Padrão, moveis planejados, tudo para seu lar,dar obra aos moveis, moveis alto padrão, moveis, pedidos, planejados, corporativo, construcao, home, solar  ">
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <meta name="geo.region" content="BR-RJ" >
+        <meta name="geo.placename" content="Rio de Janeiro" >
+        <meta name="geo.position" content="-22.903052;-43.18617" >
+        <meta name="ICBM" content="-22.903052, -43.18617">
+        <meta name="robots" content="index, follow">
+        <meta property="og:image" content="assets/images/uniq-altopadrao.png" />
+        <meta property="og:image:width" content="432" />
+        <meta property="og:image:height" content="415" />
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="assets/images/slogan/shout.png" type="image/png">
         <link rel="stylesheet" href="assets/css/bootstrap.css"/>

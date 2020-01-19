@@ -73,7 +73,7 @@ body{
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .corporativo {
-    background-size:100% 30.8em;
+    background-size:100% 100%;
     background-image:url(../images/empresas.png);
     background-repeat:no-repeat;
 }
@@ -81,7 +81,7 @@ body{
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .servicos {
-    background-size:100% 30.8em;
+    background-size:100% 100%;
     background-image:url(../images/servicos.png);
     background-repeat:no-repeat;   
 }
@@ -89,7 +89,7 @@ body{
     box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .7);
 }
 .solar {
-    background-size:100% 30.8em;
+    background-size:100% 100%;
     background-image:url(../images/solar.png);
     background-repeat:no-repeat;    
 }
@@ -116,29 +116,34 @@ cor box shadow #E0FFFF #696969 voltado para pagina planejados
     box-shadow: inset 110px 100px 100px 150px #E0FFFF;
     background-attachment:fixed;
 }
+/*
+controlando width do video
+*/
+
 .pb{
     margin-top:2em;
     background-size:100% 100%;
-    background-image:url(../images/IMG-20190217-WA0027.jpg);
+    background-image:url(../images/fplanejados1.jpg);
     background-repeat:no-repeat;
     background-attachment:fixed;
-    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .5);
+    box-shadow: inset 550px 550px 550px 550px rgba(87, 61, 28, .5);
 }
 .ambientes{
     max-width: 90%;
-    box-shadow: 10px 10px 10px  rgb(223,143,32);
+    box-shadow: 10px 10px 10px  #573d1c;
 }
 .ambientes:hover{
     cursor: pointer;
-    box-shadow: inset 110px 100px 100px 150px rgb(223,143,32);
+    box-shadow: inset 110px 100px 100px 150px #d9ae61;
     opacity: 1;
 }
 .portifoliof{
     background-size:100% 100%;
-    background-image:url(../images/Fundocopua.png);
+    background-image:url(../images/52825826_564805314030104_2139161311345377280_n.png);
     background-repeat:no-repeat;
     width:100%;
-    height: 100%;    
+    height: 100%; 
+    box-shadow: inset 550px 550px 550px 550px rgba(87, 61, 28, .8);   
 }
 /*
 voltado para pagina planejados
@@ -473,12 +478,16 @@ li a{
     background-repeat:no-repeat;
     /*box-shadow: inset 50px 50px 55px 55px rgb(128,128,128);*/
 }
+
 @media (max-width:1000px){
     .bg-moveis{
         height: 28em;
     }
     .icon{
         width: 65%;
+    }
+    .control-video{
+        max-width: 280px;
     }
 }
 .bg-moveisgray{
