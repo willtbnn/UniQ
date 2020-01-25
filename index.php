@@ -84,11 +84,10 @@
         ?>
         <section class="text-dark py-5">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <address class="col-sm-6 col-lg-4">
                         <h4 class="h3">São Paulo</h4>
                         <ul class="list-unstyled">
-                            <li>Tel.:<a href="tel:(11)5531-4889">(11)5531-4889</a></li>
                             <li>Cel.:<a href="tel:(11)94016-2666">(11)94016-2666</a></li>
                             <li>Whatsapp:<a href="https://wa.me/5511940162666">(11)94016-2666</a></li>
                             <li>E-mail:<a href="email:contato@grupouniq.com.br">contato@grupouniq.com.br</a></li>
@@ -102,7 +101,15 @@
                             <li>E-mail:<a href="emailto:contato@grupouniq.com.br">contato@grupouniq.com.br</a></li>
                         </ul>
                     </address>
-                    <address class="cols-sm-12 col-lg-4">
+                    <address class="col-sm-6 col-lg-4">
+                        <h4 class="h3">Espírito Santo</h4>
+                        <ul class="list-unstyled">
+                            <li>Cel.:<a href="tel:(27)98177-5661">(27)99966-9634</a></li>
+                            <li>Whatsapp:<a href="https://wa.me/5527999669634">(27)99966-9634</a></li>
+                            <li>E-mail:<a href="emailto:falcao.es@grupouniq.com.br">falcao.es@grupouniq.com.br</a></li>
+                        </ul>
+                    </address>
+                    <address class="col-sm-6 col-lg-4">
                         <h7 class="h3">Siga-nos nas redes </h7>
                         <a class="btn btn-light-warning" style="max-width:140px;"  href="https://www.facebook.com/uniqrjsp">
                             <img src="assets/images/icones/facebook.png" class="control-ico">    
@@ -114,9 +121,9 @@
                 </div>
             </div>                
         </section>
-        <footer class="bg-light mb-0 pb-0" style="overflow:hidden;">
+        <footer class="bg-light mb-0 pb-0 " style="overflow:hidden;">
             <div class="text-center">
-                <h5 class="display-5">Grupo Uni<code class="l">Q</code> © 2019. Alguns direitos reservados </h5>
+                <h5 class="display-5">Grupo Uni<code class="l">Q</code> 2020. © Alguns direitos reservados </h5>
                 <hr>
                 <p class="mb-0 pb-0">
                     Desenvolvido por 

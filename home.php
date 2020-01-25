@@ -4,8 +4,8 @@
             <div class="planejados">
                 <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3">
-                        <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/moveis.png"/>
-                        <a href="moveis" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/Planejado.png"/>
+                        <a href="planejados" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>   
             </div>
@@ -14,8 +14,8 @@
             <div class="moveis">
                 <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3 ">
-                        <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/Planejado.png"/>
-                        <a href="planejados" class="my-5 btn btn-outline-light">Saiba mais</a>
+                        <img class="mt-5 pt-5 img-fluid " src="assets/images/slogan/moveis.png"/>
+                        <a href="moveis" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>
             </div>

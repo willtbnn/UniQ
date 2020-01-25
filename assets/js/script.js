@@ -75,6 +75,8 @@ $(function(e){
 		$('html, body').animate({scrollTop: $('#quem').offset().top }, 3000);
 	});
 });
+
+/*
 $(function(){
     // aqui esta o elemento legenda da galeria
     $('<div id="legenda_foto" class="col-12 align-self-center"></div>').insertBefore('ul.album');
@@ -124,7 +126,7 @@ $(function(){
  Release year: 2016
  Title:	Light-Zoom JQuery plugin that use pure css to zoom on images, this enables you to zoom without loading bigger image and zoom even on gif images !
  https://github.com/JafarAkhondali/lightzoom
- */
+ 
 $.fn.lightzoom = function(options) {
 
     var settings = $.extend({
