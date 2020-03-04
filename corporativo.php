@@ -1,11 +1,11 @@
 <header class="container-fluid pbc p-5 m-0">
         <div class="text-center">
-           <img class="img-fluid py-5 icon" src="assets/images/slogan/corporativo.png">
+           <img class="img-fluid py-5 icon js-left" src="assets/images/slogan/corporativo.png">
             <h2 class="display-2"><a href="#portifolio" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
         </div>
 </header>
 <section class=" container-fluid bg-light p-sm-5 row">
-    <div class="col-lg-4">
+    <div class="col-lg-4 js-right">
         <img src="assets/images/corporativo/projeto%20(2).png" class="img-fluid d-none d-md-block connn">
     </div>
     <div class="col-lg-8 col-sm-12 align-self-center">
@@ -17,7 +17,7 @@
         Não tem um projeto de design, mas deseja ter um? Podemos ajudá-lo na criação e dar a você essa vantagem especial.
             Fornecemos estações de trabalho de escritório, mesas de escritório, prateleiras e armazenamento, mesas de recepção, balcões para impressora, cozinhas de escritório, etc.</p>
     </div>
-    <div class="col-lg-4 col-sm-12">
+    <div class="col-lg-4 col-sm-12 js-left">
         <img src="assets/images/corporativo/projeto.png" class="img-fluid connn">
     </div>
 </section>
@@ -26,91 +26,95 @@
     <h2 class="display-4 font-weight-bold">Nosso Portifólio</h2>
     <p class="lead">Confira nossos serviços </p>
     <hr>
-    <section class="container">
-        <div id="carouselCoporativo" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselCoporativo" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselCoporativo" data-slide-to="1"></li>
-              <li data-target="#carouselCoporativo" data-slide-to="2"></li>
-              <li data-target="#carouselCoporativo" data-slide-to="3"></li>
-              <li data-target="#carouselCoporativo" data-slide-to="4"></li>
-              <li data-target="#carouselCoporativo" data-slide-to="5"></li>
-              <li data-target="#carouselCoporativo" data-slide-to="6"></li>
-              <li data-target="#carouselCoporativo" data-slide-to="7"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/images/corporativo/escritorio.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                      <h5>Escritorio</h5>
-                      <p class="d-none d-md-block">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </div>
-                </div>
-              <div class="carousel-item">
-                <img src="assets/images/corporativo/corporativo.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                  <h5>Corpotativo</h5>
-                  <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/corporativo/ambientes_comerciais.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                  <h5>Ambientes Comerciais</h5>
-                  <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </div>
+    <section class="container ">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-sm-12">
+          <div id="carouselCoporativo" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselCoporativo" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselCoporativo" data-slide-to="1"></li>
+                <li data-target="#carouselCoporativo" data-slide-to="2"></li>
+                <li data-target="#carouselCoporativo" data-slide-to="3"></li>
+                <li data-target="#carouselCoporativo" data-slide-to="4"></li>
+                <li data-target="#carouselCoporativo" data-slide-to="5"></li>
+                <li data-target="#carouselCoporativo" data-slide-to="6"></li>
+                <li data-target="#carouselCoporativo" data-slide-to="7"></li>
+              </ol>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="assets/images/corporativo/escritorio.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption">
+                        <h5>Escritorio</h5>
+                        <p class="d-none d-md-block">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      </div>
+                  </div>
                 <div class="carousel-item">
-                <img src="assets/images/corporativo/divisorias.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                  <h5>Divisórias</h5>
-                  <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  <img src="assets/images/corporativo/corporativo.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Corpotativo</h5>
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
                 </div>
-              </div>
                 <div class="carousel-item">
-                <img src="assets/images/corporativo/revestimento.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                  <h5>Revestimento</h5>
-                  <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  <img src="assets/images/corporativo/ambientes_comerciais.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Ambientes Comerciais</h5>
+                    <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
                 </div>
+                  <div class="carousel-item">
+                  <img src="assets/images/corporativo/divisorias.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Divisórias</h5>
+                    <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>
+                  <div class="carousel-item">
+                  <img src="assets/images/corporativo/revestimento.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Revestimento</h5>
+                    <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>
+                  <div class="carousel-item">
+                  <img src="assets/images/corporativo/show_roow.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Show Roow</h5>
+                    <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>
+                  <div class="carousel-item">
+                  <img src="assets/images/corporativo/displays.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Displays</h5>
+                    <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>
+                  <div class="carousel-item">
+                  <img src="assets/images/corporativo/stands.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Stands</h5>
+                    <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+                </div>            
               </div>
-                <div class="carousel-item">
-                <img src="assets/images/corporativo/show_roow.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                  <h5>Show Roow</h5>
-                  <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </div>
-                <div class="carousel-item">
-                <img src="assets/images/corporativo/displays.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                  <h5>Displays</h5>
-                  <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </div>
-                <div class="carousel-item">
-                <img src="assets/images/corporativo/stands.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                  <h5>Stands</h5>
-                  <p class="d-none d-md-block">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-              </div>            
-            </div>
-            <a class="carousel-control-prev" href="#carouselCoporativo" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselCoporativo" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+              <a class="carousel-control-prev" href="#carouselCoporativo" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselCoporativo" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
         </div>
+      </div>
     </section>
     <hr>
 </article>
 <article class="pt-5 pb-5 mt-0 container-fluid pg-empresa ">
     <div class="container">
-    <p class="h5 text-coporativo">
+    <p class="h5 text-coporativo js-right">
      UniQ corporativo é uma emvpresa especializada no fornecimento de marcenaria corporativa personalizada para todo projeto de arquitetura e design. Isso inclui recepções, escritórios, soluções de armazenamento, estações de trabalho, móveis para áreas operacionais, ergonomia para mobiliário de escritório, plataforma de trabalho, mesa de reunião, shopfronts, displays, pf, standys, projetos personalizados corporativos e comerciais.
     </p>
     </div>

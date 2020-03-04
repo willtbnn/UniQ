@@ -46,7 +46,7 @@
             <div class="navbar-collapse collapse" id="navbarMenu">
                 <ul class="navbar-nav ml-auto">
                     <li class="navbar-item">
-                        <a href="#quem" class="nav-link b-link">Quem somos</a>
+                        <a href="#quem" class="nav-link b-link d-none">Quem somos</a>
                     </li>
                     <li class="navbar-item">
                         <a href="planejados" class="nav-link b-link">Planejados</a>
@@ -114,7 +114,7 @@
                         <a class="btn btn-light-warning" style="max-width:140px;"  href="https://www.facebook.com/uniqrjsp">
                             <img src="assets/images/icones/facebook.png" class="control-ico">    
                         </a>
-                        <a class="btn btn-light-warning" style="max-width:140px;"  href="https://www.instagram.com/grupo_uniq/?hl=pt-br">
+                        <a class="btn btn-light-warning" style="max-width:140px;"  href="https://www.instagram.com/uniqaltopadrao">
                             <img src="assets/images/icones/instagram.png" class="control-ico">    
                         </a>                  
                     </address>
@@ -133,7 +133,6 @@
         </footer>
         <script type="text/javascript" src="assets/js/jquery-3.4.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-        <!--<script type="text/javascript" src="assests/js/lightzoom.js"></script>-->
         <script type="text/javascript" src="assets/js/script.js"></script>
         <script>
         
