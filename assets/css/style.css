@@ -515,8 +515,36 @@ li a{
 }
 .addmargin{
     margin-top:120px;
-    padding-bottom: 120px;
+}
+.addmarginb{
+    padding-bottom: 120px
 }
 .paleta2moveis{
     background-color:#c0d8e0;
+}
+.menu-nulo{
+    display:none;
+}
+.ativo{
+    border-bottom: solid 3px rgb(223,143,32);
+    transform: translate3d(0,10,0);
+	transition: .8s;
+}
+.js-right{
+    opacity:0;
+    transform: translate3d(-100px, 0, 0);
+    transition:3s;
+}
+.js-left{
+    opacity:0;
+    transform: translate3d(0, 0, 0 );
+    transition: 4s;
+}
+.js-ativo{
+    opacity:1;
+    transform: translate3d(0,0,0);
+}
+.linha-abaixo-moveis{
+    width: 5rem;
+    border: solid 5px rgb(128,128,128);
 }

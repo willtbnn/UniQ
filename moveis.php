@@ -1,6 +1,6 @@
 <section class="container-fluid mt-5 pt-5 mb-0 bg-moveis text-center">
     <div class="container text-center">
-        <img class="icon mb-5" src="assets/images/slogan/moveis.png"/>
+        <img class="icon mb-5 js-left" src="assets/images/slogan/moveis.png"/>
     </div>
     <h1 class="h5 escritamoveis mb-0">UniQ móveis tem padrão unico de trabalho, com madeiras da melhor qualidade. <br/>
         Confira alguns de nossos moveis prontos a espera de sua solicitação.<br/>
@@ -8,39 +8,46 @@
     </h1>
 </section>
 <article class="container-fluid mt-0 text-center paletamoveis pt-5">
-    <h2 class="pt-5">Mesas</h2>
+    <h2 class="pt-5 js-right">Mesas</h2>
+    <div class="row justify-content-center">
+        <div class="linha-abaixo-moveis"></div>
+        <div class="col-12 mt-0"></div>
+    </div>
     <div class="row align-items-center ml-lg-5 pt-5">
-        <div class="col-lg-3 col-sm-6" >
+        <div class="col-lg-3 col-sm-6 js-right" >
             <img class="img-fluid" src="assets/images/moveis/feitos/uniq_mesa-agata-baseunica.jpg"  alt="Mesa Agata / base única">
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-sm-6 js-right">
             <img class="img-fluid mt-lg-5 mt-auto" src="assets/images/moveis/feitos/uniq_mesa-dentrita-base-trapezio.jpg" alt="Mesa dentrita / base trapezio">
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-sm-6 js-left">
             <img class="img-fluid" src="assets/images/moveis/feitos/uniq_mesa-preta.jpg" alt="Mesa Preta">
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-sm-6 js-left">
             <img class="img-fluid" src="assets/images/moveis/feitos/uniq_mesa-quartzo-fume-quadrada.jpg" alt="Mesa Quartzo / Fumê quadrada">
         </div>
     </div>
 </article>
 <section class="container-fluid parte2 text-center">
     <h3 class="h5 mt-5 mb-5">A Resina poliéster é a materia prima base de todas as nossas peças. Trata-se de uma poliestireno termorrígido, isto é, apresenta grande resistência, aliado a aditivos especias obténdo um acabamento de alto brilho muito superior a laca e a fórmica.</h3>
-
-    <h4 class="h2 addmargin">Aparadores</h4>
+    <h4 class="h2 addmargin js-right">Aparadores</h4>
+    <div class="row justify-content-center">
+        <div class="linha-abaixo-moveis"></div>
+        <div class="col-12 mt-0 addmarginb"></div>
+    </div>
 </section>
 <article class="container-fluid" style="margin-top: -90px;">
     <div class="row align-items-center">
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-sm-6 js-right">
             <img class="img-fluid" src="assets/images/moveis/feitos/uniq_aparadores-cores.jpg">
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-sm-6 js-right">
             <img class="img-fluid" src="assets/images/moveis/feitos/uniq_aparadores-com-acabamento-resina.jpg">
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-sm-6 js-left">
             <img class="img-fluid" src="assets/images/moveis/feitos/uniq_aparadores_celestita_Base-invertida.jpg">
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-sm-6 js-left">
             <img class="img-fluid" src="assets/images/moveis/feitos/uniq_aparador-Turmalina_Scarlate.jpeg">
         </div> 
     </div>
