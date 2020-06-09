@@ -1,0 +1,69 @@
+@import 'geral.css';
+.headesolar-fundo{
+    background-size:100% 100%;
+    background-image:url(../images/solar/header_f1.jpg);
+    margin-top:2em;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    box-shadow: inset 550px 550px 550px 550px rgba(0, 0, 0, .5);
+}
+.pontilhado{
+    background: #fff;
+    border-bottom-style: dashed;
+    border-color:rgb(204, 225, 51);
+    height: 50px;
+    z-index: 1;
+}
+.fundo_dark{
+    margin:0;
+    background: #fff;
+    border-color:rgb(204, 225, 51);
+    height: 50px;
+    z-index: 1;
+}
+.borda-col{
+    border-bottom-style: dashed;
+    border-color:rgb(204, 225, 51);
+}
+.sombra-img{
+       box-shadow: inset 19px 0px 20px 6px rgb(204, 225, 51);
+}
+.centralizar-sm{
+    margin-left: 8em !important;
+}
+.ajuste{
+    color:rgb(204, 225, 51);
+    border-bottom-style: double;
+    border-color:rgb(204, 225, 51);
+    width: 20%;
+    margin-left: 3em;
+}
+.numeros-encima {
+    margin-right: 1000px !important;
+    max-width:50px !important;
+}
+.fundo_solar{
+    background-color: rgb(204, 225, 51);
+    width: auto;
+}
+#anime-fotovoltaico{
+    background-color: rgb(204, 225, 51);
+    width: auto;
+}
+.pontilhado_azul{
+    background: #fff;
+    border-bottom-style: dashed;
+    border-color:rgb(204, 225, 51);
+    height: 50px;
+    z-index: 1;
+}
+
+.anime-fotovoltaicoazul{
+    background-color: rgb(204, 225, 51);
+    width: auto;
+}
+.fotovoltaico-start{
+    transition: .3s;
+    opacity: 1;
+    
+}

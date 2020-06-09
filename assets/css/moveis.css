@@ -1,0 +1,86 @@
+@import 'geral.css';
+ul{
+    margin-top:1em;
+    padding:0;
+    list-style:none;
+    display: inherit;
+}
+li a{
+    display: inline;
+    cursor:pointer;
+}
+#legenda_foto, #legenda_foto2{
+    width: 350px;
+    padding:5px;
+    background-color:#A9A9A9;
+    margin-top:1em;
+}
+#foto_principal, #foto_principal2{
+    width: auto;
+    max-width: 700px;
+}
+.galeria, .galeria2{
+    width: auto;
+    margin:0 auto;
+}
+#glass {
+    position:absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    display:none;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.6);
+}
+.bg-moveis{
+    background-size:100% 100%;
+    background-image:url(../images/bg/uniq_moveis.png);
+    background-repeat:no-repeat;
+    /*box-shadow: inset 50px 50px 55px 55px rgb(128,128,128);*/
+}
+
+@media (max-width:1000px){
+    /*.bg-moveis{
+        height: 28em;
+    }*/
+    .icon{
+        width: 65%;
+    }
+    .control-video{
+        max-width: 280px;
+    }
+}
+.bg-moveisgray{
+    background-color: rgb(128,128,128);
+}
+.bg-aparador{
+    background-color: rgb(28,28,28);
+}
+
+.escritamoveis{
+    color:#696969;
+}
+.paletamoveis{
+    background-color:#7fc6a4;
+}
+.parte2{
+    margin-top:-50px;
+    padding-top:80px;
+    background-color:#faf33e;
+    padding-bottom:40px;
+}
+.addmargin{
+    margin-top:120px;
+}
+.addmarginb{
+    padding-bottom: 120px
+}
+.paleta2moveis{
+    background-color:#c0d8e0;
+}
+.menu-nulo{
+    display:none;
+}
+.linha-abaixo-moveis{
+    width: 5rem;
+    border: solid 5px rgb(128,128,128);
+}

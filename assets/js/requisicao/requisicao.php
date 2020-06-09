@@ -3,10 +3,10 @@ $ReqPOST = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 
 
 $Json['error'] = true;
-$Nome = $ReqPOST['dados'][0]['value'];
-$Email = $ReqPOST['dados'][1]['value'];
-$selecao = $ReqPOST['dados'][2]['value'];
-$msg = $ReqPOST['dados'][3]['value'];
+$nome = $ReqPOST["dados"][0]["value"];
+$email = $ReqPOST["dados"][1]["value"];
+$selecao = $ReqPOST["dados"][2]["value"];
+$msg = $ReqPOST["dados"][3]["value"];
 
 //incluir a classe PHPMailer
 include_once 'PHPMailer/class.smtp.php';
@@ -24,11 +24,11 @@ $Mailer->Password = 'uniq123'; //Senha do seu e-mail criado na hospedagem esta p
 $Mailer->SMTPSecure = 'tls';
 $Mailer->Port = 25;
 $Mailer->Priority = 1; //Prioridade do e-mail
-$Mailer->FromName = ($Nome); // Email e nome de quem enviara o e-mail
+$Mailer->FromName = ($nome); // Email e nome de quem enviara o e-mail
 $Mailer->From = 'contato@grupouniq.com.br'; 
 $Mailer->AddAddress('jlbnunes@live.com'); //Para quem será enviado o e-mail ?
 $Mailer->IsHTML(true);
-$Mailer->Subject = "Cliente - {$Nome}".date("H:i")." - ".date("d/m/Y");
+$Mailer->Subject = "Cliente - {$nome}".date("H:i")." - ".date("d/m/Y");
 $Mailer->Body = "
 <html>
     <head>
@@ -36,8 +36,8 @@ $Mailer->Body = "
     </head>
     <body>
         <h1>Mensagem recebida atraves do site </h1>
-        <p>Nome do cliente:<strong>  {$Nome} </strong><br/></p>
-        <p>E-mail:<strong> {$Email} </strong><br/></p>
+        <p>Nome do cliente:<strong>  {$nome} </strong><br/></p>
+        <p>E-mail:<strong> {$email} </strong><br/></p>
         <p>Tipo de serviço<strong> {$selecao} </strong><br/></p>
         <p>Mensagem:<strong> {$msg} </strong><br/></p>
     </body>

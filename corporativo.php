@@ -1,7 +1,7 @@
 <header class="container-fluid pbc p-5 m-0">
         <div class="text-center">
            <img class="img-fluid py-5 icon js-left" src="assets/images/slogan/corporativo.png">
-            <h2 class="display-2"><a href="#portifolio" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2>
+            <!-- <h2 class="display-2"><a href="#portifolio" class="btn btn-outline-warning btn-lg mt-4 bgf"><span class="carousel-control-next-icon"></span>Confira nosso portiforlio</a></h2> -->
         </div>
 </header>
 <section class=" container-fluid bg-light p-sm-5 row">

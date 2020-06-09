@@ -30,12 +30,13 @@
         <meta property="og:image" content="assets/images/uniq-altopadrao.png" />
         <meta property="og:image:width" content="432" />
         <meta property="og:image:height" content="415" />
-        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <link rel="shortcut icon" href="assets/images/slogan/shout.png" type="image/png">
         <link rel="stylesheet" href="assets/css/bootstrap.css"/>
-        <link rel="stylesheet" href="assets/css/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600&display=swap" rel="stylesheet">
+        
     </head>
-    <body>
+    <body oncontextmenu="return false" onselect="return false" ondragstart="return false">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 box-shadow mb-5">
             <a class="navbar-brand ml-md-5" href="https://grupouniq.com.br">
                 <img src="assets/images/slogan/slogan.png" style="width:200px;height:50px;" />
@@ -64,7 +65,7 @@
                         <a href="solar" class="nav-link b-link">Energia Solar</a>
                     </li>
                     <li class="navbar-item">
-                    <a href="pedidos" class="btn btn-trans btn-outline-warning bgf ml-md-2">Orçamento</a>
+                    <a href="pedidos" class="btn btn-trans btn-outline-dark bgf ml-md-2">Orçamento</a>
                     </li>                           
                 </ul>
             </div>
@@ -133,9 +134,9 @@
         </footer>
         <script type="text/javascript" src="assets/js/jquery-3.4.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-        <script type="text/javascript" src="assets/js/script.js"></script>
+        <script type="module" src="assets/js/script.js"></script>
         <script>
-        
+            
         </script>
     </body>
 </html>

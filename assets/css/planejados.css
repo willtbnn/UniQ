@@ -1,0 +1,145 @@
+@import 'geral.css'; 
+.pb{
+    margin-top:2em;
+    background-size:100% 100%;
+    background-image:url(../images/fplanejados1.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    box-shadow: inset 550px 550px 550px 550px rgba(87, 61, 28, .5);
+}
+.ambientes{
+    max-width: 90%;
+    box-shadow: 10px 10px 10px  #573d1c;
+}
+.ambientes:hover{
+    cursor: pointer;
+    box-shadow: inset 110px 100px 100px 150px #d9ae61;
+    opacity: 1;
+}
+.portifoliof{
+    background-size:100% 100%;
+    background-image:url(../images/52825826_564805314030104_2139161311345377280_n.png);
+    background-repeat:no-repeat;
+    width:100%;
+    height: 100%; 
+    box-shadow: inset 550px 550px 550px 550px rgba(87, 61, 28, .8);   
+}
+/*
+voltado para pagina planejados
+*/
+/* Portifolio definindo fundo para cada modal*/
+
+.portifolio1 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_1.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio2 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_2.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio3 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_3.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio4 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_4.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio5 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_5.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio6 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_6.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio7 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_7.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio8 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_8.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio9 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_9.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio10 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_10.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio11 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_11.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio12 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_12.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio13 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_13.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio14 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_14.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio15 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_15.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio16 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_16.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio17 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_17.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.portifolio18 {
+    background-size:100% 31em;
+    background-image:url(../images/servicos/servico_18.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+/* Fim - Cada modal tem um fundo diferente */
+
+@media (max-width: 900px) {
+    
+}        
