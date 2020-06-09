@@ -34,11 +34,6 @@
     <b class="h4">Sistema Fotovoltaico ?</b>
 </div>
 <div class="container-fluid fundo_dark"></div>
-<!--<article class="container-fluid  row mt-0 ml-0 text-center">
-    <div class="col-12">
-        <img src="assets/images/solar/como_funcionar.png" class="img-fluid">
-    </div>
-</article>-->
 <div class="container-fluid fundo_dark"></div>
 <section class="container text-dark">
     <div class="row">
@@ -122,11 +117,11 @@
         </div>
     </div>
     <div class="row mt-4">
-        <div class="col-md-2 col-sm-2">
-            <div class="col  d-none d-lg-block rounded-circle align-self-center bg-dark js-left" style="max-width:50px;">
+        <div class="col-md-2 col-sm-2 text-center">
+            <div class="col  d-none d-lg-block rounded-circle bg-dark js-left" style="max-width:50px;">
                 <p class="text-light">1</p>
             </div>
-            <div class="col  d-none d-lg-block rounded-circle align-self-center bg-dark js-left" style="max-width:50px;">
+            <div class="col  d-none d-lg-block rounded-circle bg-dark js-left" style="max-width:50px;">
                 <p class="text-light">2</p>
             </div>
         </div>

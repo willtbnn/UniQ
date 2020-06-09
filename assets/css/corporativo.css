@@ -1,0 +1,26 @@
+@import 'geral.css';
+.pbc{
+    margin-top:2em;
+    background-size:100% 100%;
+    background-image:url(../images/corporativo/desenho_predio.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    box-shadow: inset 550px 550px 550px 550px rgba(244, 247, 190, .5);
+}
+.pg-empresa{
+    background-image:url(../images/corporativo/FotodeStockSnap.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+    box-shadow: inset 550px 550px 550px 550px rgba(244, 247, 190, .5);
+}
+.connn{
+    max-width:350px;
+}
+.text-coporativo{
+    color:#1e000e;
+}
+.corporativo-bg{
+    
+    background-color:#e5f77d;
+}

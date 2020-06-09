@@ -1,0 +1,139 @@
+/*background-color:#FF8C00; #8B4513 / #A0522D #F5DEB3 #FFDAB9 rgb(204,149,67)*/
+body{
+    font-family: 'IBM Plex Mono SemiBold', monospace !important;
+    padding-bottom:0px;
+    margin: 0;
+    overflow-x:hidden;
+}
+.nf{
+    background-color:#d9ae61;
+}
+.borda{
+    width:40px;
+    background-color:rgb(223,143,32);
+    height: 2px;
+    padding-top: 0px;
+}
+.grupo {
+    background-size:100% 100%;
+    background-image:url(../images/grupo_UniQ_fundo.png);
+    background-repeat:no-repeat;
+}
+.btn-trans{
+    width: 97%;
+    transition: .8s;
+}
+.btn-trans:hover{
+    width: 100%;
+    transition: .8s;
+}
+.imagens-link{
+    width: 97%;
+    transition: .8s;
+}
+.imagens-link:hover{
+    width:100%;
+    transform: translate3d(10,100,0);
+	transition: .8s;
+}
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+                0 4px 8px 0 rgba(0,0,0,.05), 
+}
+.planejados {
+    background-size:100% 30.8em;
+    background-image:url(../images/bg/uniq_planejados.png);
+    background-repeat:no-repeat;
+}
+.planejados:hover {
+    box-shadow: inset 550px 550px 550px 550px rgba(217, 174, 97, .5);
+}
+.moveis {
+    background-size:100% 30.8em;
+    background-image:url(../images/bg/uniq_moveis.png);
+    background-repeat:no-repeat;
+}
+.moveis:hover {
+    box-shadow: inset 550px 550px 550px 550px rgba(214,248,214, .7);
+}
+.corporativo {
+    background-size:100% 100%;
+    background-image:url(../images/bg/uniq_corporativo.png);
+    background-repeat:no-repeat;
+}
+.corporativo:hover{
+    box-shadow: inset 550px 550px 550px 550px rgba(30, 0, 14, .5);
+}
+.servicos {
+    background-size:100% 100%;
+    background-image:url(../images/servicos.png);
+    background-repeat:no-repeat;   
+}
+.servicos:hover{
+    box-shadow: inset 550px 550px 550px 550px rgba(246, 255,241, .7);
+}
+.solar {
+    background-size:100% 100%;
+    background-image:url(../images/solar.png);
+    background-repeat:no-repeat;    
+}
+.solar:hover{
+    box-shadow: inset 550px 550px 550px 550px rgba(107,170,117, .7);
+}
+.bg-pri{
+    background-color:#573d1c;
+}
+.marginadd{
+    margin-top:8em;
+}
+.controlm{
+    width:40%
+}
+.fpedidos {
+    background-size:100% 100%;
+    background-image:url(../images/fpedidos.png);
+    background-repeat:no-repeat;
+}
+.ativo{
+    border-bottom: solid 3px rgb(223,143,32);
+    transform: translate3d(0,10,0);
+	transition: .8s;
+}
+.js-right{
+    opacity:0;
+    transform: translate3d(-100px, 0, 0);
+    transition:3s;
+}
+.js-left{
+    opacity:0;
+    transform: translate3d(0, 0, 0 );
+    transition: 4s;
+}
+.js-ativo{
+    opacity:1;
+    transform: translate3d(0,0,0);
+}
+/* Não indicado mais feito alteração no boostrap*/
+.b-link:hover{
+    border-bottom: solid 3px rgb(223,143,32);
+    transform: translate3d(0,10,0);
+	transition: .8s;
+}
+.control-ico{
+    max-width: 40%;
+    cursor:pointer;
+}
+.icon{
+    max-width: 100%;
+    height: auto;
+    margin-top:9em;
+}
+#j_sucesso, #j_enviando, #j_error{
+    display:none;
+}
+.bbtnb{
+    color:black;
+    margin-top:2em;
+    box-shadow: inset 110px 100px 100px 150px #E0FFFF;
+    background-attachment:fixed;
+}
