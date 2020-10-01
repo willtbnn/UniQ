@@ -6,11 +6,13 @@ export default function initAtivado(){
     //             });
     //     });
     // };
+    // Lembra que no Deploy tem que colocar https://grupouniq.com.br/ ... 
+    // com www não pega 
     function ativadoSelecao(){
         let selecionanadoLink = document.querySelectorAll('link');
         let selecionandoMetaTitle = document.querySelectorAll('meta');
         let selecionandoImg = document.querySelector('img');
-        if(window.location.href === 'http://localhost/UniQ/planejados' /* && 'https://www.grupouniq.com.br/planejados'*/){
+        if(window.location.href === 'http://localhost/UniQ/planejados'  && 'http://localhost/UniQ/planejados#portifolio'/* && 'https://www.grupouniq.com.br/planejados'*/){
             document.querySelector('[href^="planejados"]' ).classList.add('ativo');
             selecionanadoLink[0].setAttribute('href', 'assets/css/planejados.css');
             // deslizar();

@@ -1,6 +1,6 @@
 <header class="container-fluid pb pt-5">
         <div class="container text-center text-dark ml-md-auto ">
-            <img class="img-fluid py-5 icon" src="assets/images/slogan/planejado.png"/>
+            <img class="img-fluid py-5 icon" src="assets/images/slogan/Planejado.png"/>
         </div>
 </header>
 <article class="d-flex align-items-center mt-5">
@@ -400,7 +400,10 @@
           </div>
       </div>
   </div>
-  <div class=" d-flex justify-content-center">
-      <h2 class="display-2 ml-5"><a href="pedidos" class="btn btn-trans  btn-outline-warning btn-lg  bgf"><span class="carousel-control-next-icon"></span>Solicite seu projeto</a></h2>
+  <div class="d-flex justify-content-center">
+    <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-chevron-double-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+      <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+    </svg>
   </div>
 </article>

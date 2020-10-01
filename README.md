@@ -1,10 +1,8 @@
-Apresentação web da Empresa Grupo Uniq. 
+## Multipagina Web 
 
-Objetivo de melhor exposição de seus trabalhos e maior contato com o cliente, através da pagina de contato o cliente pode manda seu projeto direto para a diretoria da empresa.
+Apresentação web do grupo UniQ, Aqui são 5 paginas dinamicas.
+Uma parte de contato que ser encontra na parte inferior de todas as paginas (footer)
 
-Documentação:
+## Usando o PHPMalier
 
-Site feito com HTML, CSS3, JAVASCRIPT, BOOSTRAP para melhor responsividade, PHP para gerenciamento de página mais rápido, PHPMailler para página de contato. 
-
-NOTA: Unico arquivo php que não está no projeto corretamente e da requisição, para conserva dados do cliente, mais a estruturação é essa.
-Caso queira, entra em contato com outhor para esta passando a estrutura do código requisicao.php;
+Aqui estamos fazendo formulario que dispara um email para o Diretor da empresa.
