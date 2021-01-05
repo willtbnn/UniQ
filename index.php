@@ -93,13 +93,6 @@
                 <div class="text-center">
                     <h5 class="h1">Pedidos</h5>  
                 </div>
-                <!--Sucesso no envio-->
-                <div class="j_seletor alert alert-success" id="j_sucesso" role="alert" >
-                    <h4 class="alert-heading">Enviado com Sucesso!</h4>
-                    <p>Dentro de alguns dias entraremos em contato com você, temos uma equipe especilizada para etende-lo. Obrigado pela preferência.</p>
-                    <hr>
-                    <p class="mb-0">Fique avontade, para conhecer mais sobre nossa empresa e parceiros.</p>
-                </div>
                 <form id="jcontrol" class="nf rounded p-4 box-shadow text-white" action="<?= HOME ?>/js/requisicao/requisicao.php">
                     <div class="form-row">
                         <div class="form-group col-md-6">
@@ -114,10 +107,10 @@
                     <label for="selecao"><b>Qual serviço quer atendimento ?</b></label>
                     <select class="form-control form-control-sm" name="selecao">
                         <option value="0">Selecione o tipo de serviço</option>
-                        <option value="1">Moveis planejados</option>
-                        <option value="2">Coportativo</option>
-                        <option value="3">Construção e serviços</option>
-                        <option value="4">Energia Solar</option>
+                        <option value="Moveis planejados">Moveis planejados</option>
+                        <option value="Coportativo">Coportativo</option>
+                        <option value="Construção e serviços">Construção e serviços</option>
+                        <option value="Energia Solar">Energia Solar</option>
                     </select>
                     <div class="form-group">
                         <label for="Mensagem"><b>Mensagens</b></label>
@@ -125,6 +118,13 @@
                     </div>
                     <div class="text-center">
                         <button type="submit" class="btn btn-primary" method="POST">Enviar</button>
+                    </div>
+                    <!--Sucesso no envio-->
+                    <div class="j_seletor alert alert-success" id="j_sucesso" role="alert" >
+                        <h4 class="alert-heading">Enviado com Sucesso!</h4>
+                        <p>Dentro de alguns dias entraremos em contato com você, temos uma equipe especilizada para etende-lo. Obrigado pela preferência.</p>
+                        <hr>
+                        <p class="mb-0">Fique avontade, para conhecer mais sobre nossa empresa e parceiros.</p>
                     </div>
                     <!--Erro-->
                     <div class="j_seletor alert alert-danger" id="j_error" role="alert">
