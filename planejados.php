@@ -1,6 +1,6 @@
 <header class="container-fluid pb pt-5">
         <div class="container text-center text-dark ml-md-auto ">
-            <img class="img-fluid py-5 icon" src="assets/images/slogan/planejado.png"/>
+            <img class="img-fluid py-5 icon" src="assets/images/slogan/Planejado.png"/>
         </div>
 </header>
 <article class="d-flex align-items-center mt-5">

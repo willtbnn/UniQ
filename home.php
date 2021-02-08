@@ -4,7 +4,7 @@
             <div class="planejados">
                 <div class="container py-lg-5 py-sm-0">
                     <div class="col-md-6 offset-md-3">
-                        <img class="mt-5 pt-5 img-fluid js-right" src="assets/images/slogan/planejado.png"/>
+                        <img class="mt-5 pt-5 img-fluid js-right" src="assets/images/slogan/Planejado.png"/>
                         <a href="planejados" class="my-5 btn btn-outline-light">Saiba mais</a>
                     </div>
                 </div>   
