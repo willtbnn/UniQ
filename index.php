@@ -165,7 +165,7 @@
                         <ul class="list-unstyled">
                             <li>Cel.:<a href="tel:(27)98177-5661">(27)99966-9634</a></li>
                             <li>Whatsapp:<a href="https://wa.me/5527999669634">(27)99966-9634</a></li>
-                            <li>E-mail:<a href="emailto:falcao.es@grupouniq.com.br">falcao.es@grupouniq.com.br</a></li>
+                            <li>E-mail:<a href="mailto:falcao.es@grupouniq.com.br">falcao.es@grupouniq.com.br</a></li>
                         </ul>
                     </address>
                     <address class="col-sm-6 col-lg-4">
