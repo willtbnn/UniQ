@@ -32,9 +32,9 @@ export default function initMsgCliente(){
                             //Verifica se houver erro
                             if(!_error) {
                                     _seletorSucesso.fadeIn(1000);
-                               }else{
+                                }else{
                                     _seletorErro.fadeIn(500);
-                               }
+                                }
                             //esconder os tickets - seja qual for
                             //setTimeout(function(){
                               //  _seletoralert.fadeOut();

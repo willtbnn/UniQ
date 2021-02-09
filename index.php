@@ -1,14 +1,19 @@
+<?php include_once 'config.php'; ?>
+<?php //habilitando o cors
+    header("Access-Control-Allow-Origin: *");
+?>
+
 <!doctype html>
 <html>
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156459776-1"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'UA-156459776-1');
+            gtag('config', 'UA-156459776-1');
         </script>
 
         <meta charset="utf-8">
@@ -64,8 +69,8 @@
                     <li class="navbar-item">
                         <a href="solar" class="nav-link b-link">Energia Solar</a>
                     </li>
-                    <li class="navbar-item">
-                    <a href="pedidos" class="btn btn-trans btn-outline-dark bgf ml-md-2">Orçamento</a>
+                    <li class="navbar-item" data-menu="suave">
+                        <a  href="#pedidos" class="nav-link b-link">Pedidos</a>
                     </li>                           
                 </ul>
             </div>
@@ -83,17 +88,70 @@
             include 'home.php';
         }
         ?>
+        <div class="container-fluid py-5" id="pedidos">
+            <div class="container">
+                <div class="text-center">
+                    <h5 class="h1">Pedidos</h5>  
+                </div>
+                <form id="jcontrol" class="nf rounded p-4 box-shadow text-white" action="<?= HOME ?>/js/requisicao/requisicao.php">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="nome"><b>Nome</b></label>
+                            <input type="text" class="form-control" id="nome" name="nome" required/>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email"> <b>Email</b></label>
+                            <input type="text" class="form-control" id="email" name="email" required/>
+                        </div>
+                    </div>
+                    <label for="selecao"><b>Qual serviço quer atendimento ?</b></label>
+                    <select class="form-control form-control-sm" name="selecao">
+                        <option value="0">Selecione o tipo de serviço</option>
+                        <option value="Moveis planejados">Moveis planejados</option>
+                        <option value="Coportativo">Coportativo</option>
+                        <option value="Construção e serviços">Construção e serviços</option>
+                        <option value="Energia Solar">Energia Solar</option>
+                    </select>
+                    <div class="form-group">
+                        <label for="Mensagem"><b>Mensagens</b></label>
+                        <textarea class="form-control" name="mensagem" id="Mensagem" row="5"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary" method="POST">Enviar</button>
+                    </div>
+                    <!--Sucesso no envio-->
+                    <div class="j_seletor alert alert-success" id="j_sucesso" role="alert" >
+                        <h4 class="alert-heading">Enviado com Sucesso!</h4>
+                        <p>Dentro de alguns dias entraremos em contato com você, temos uma equipe especilizada para etende-lo. Obrigado pela preferência.</p>
+                        <hr>
+                        <p class="mb-0">Fique avontade, para conhecer mais sobre nossa empresa e parceiros.</p>
+                    </div>
+                    <!--Erro-->
+                    <div class="j_seletor alert alert-danger" id="j_error" role="alert">
+                        Tente novamente, houve um erro!
+                        Regarregue a pagina.
+                        Caso error persiste, ligue para nós.
+                    </div>
+                    <!--Enviando-->
+                    <div class="d-flex justify-content-center" >
+                        <div class="j_seletor spinner-border" role="status" id="j_enviando">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
         <section class="text-dark py-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <address class="col-sm-6 col-lg-4">
+                    <!-- <address class="col-sm-6 col-lg-4">
                         <h4 class="h3">São Paulo</h4>
                         <ul class="list-unstyled">
                             <li>Cel.:<a href="tel:(11)94016-2666">(11)94016-2666</a></li>
                             <li>Whatsapp:<a href="https://wa.me/5511940162666">(11)94016-2666</a></li>
                             <li>E-mail:<a href="email:contato@grupouniq.com.br">contato@grupouniq.com.br</a></li>
                         </ul>
-                    </address>
+                    </address> -->
                     <address class="col-sm-6 col-lg-4">
                         <h4 class="h3">Rio de Janeiro</h4>
                         <ul class="list-unstyled">
@@ -128,7 +186,7 @@
                 <hr>
                 <p class="mb-0 pb-0">
                     Desenvolvido por 
-                    <b>▬Develops <kbd>WRD</Kbd>▬</b>
+                    <b>▬Develops  <a class="link" href="http://woza.com.br"><kbd>woza</Kbd> </a>▬</b>
                 </p>
             </div>     
         </footer>

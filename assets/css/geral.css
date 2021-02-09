@@ -6,11 +6,12 @@ body{
     overflow-x:hidden;
 }
 .nf{
-    background-color:#d9ae61;
+    /* background-color:#d9ae61; */
+    background: rgb(223,143,32);
 }
 .borda{
     width:40px;
-    background-color:rgb(223,143,32);
+    background-color:rgb(255,255,255);
     height: 2px;
     padding-top: 0px;
 }
@@ -27,58 +28,55 @@ body{
     width: 100%;
     transition: .8s;
 }
-.imagens-link{
-    width: 97%;
-    transition: .8s;
+.imagens-link img{
+    width: 320px;
+    height: 220px;
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
 }
 .imagens-link:hover{
-    width:100%;
+    /* width:100%;
     transform: translate3d(10,100,0);
-	transition: .8s;
+    transition: .8s; */
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .box-shadow {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
                 0 4px 8px 0 rgba(0,0,0,.05), 
 }
 .planejados {
-    background-size:100% 30.8em;
+    background-size:100% 100%;
     background-image:url(../images/bg/uniq_planejados.png);
     background-repeat:no-repeat;
-}
-.planejados:hover {
     box-shadow: inset 550px 550px 550px 550px rgba(217, 174, 97, .5);
 }
 .moveis {
-    background-size:100% 30.8em;
+    background-size:100% 100%;
     background-image:url(../images/bg/uniq_moveis.png);
     background-repeat:no-repeat;
-}
-.moveis:hover {
-    box-shadow: inset 550px 550px 550px 550px rgba(214,248,214, .7);
+    box-shadow: inset 550px 550px 550px 550px rgba(214,248,214, .5);
 }
 .corporativo {
     background-size:100% 100%;
     background-image:url(../images/bg/uniq_corporativo.png);
     background-repeat:no-repeat;
-}
-.corporativo:hover{
     box-shadow: inset 550px 550px 550px 550px rgba(30, 0, 14, .5);
 }
 .servicos {
     background-size:100% 100%;
     background-image:url(../images/servicos.png);
-    background-repeat:no-repeat;   
-}
-.servicos:hover{
+    background-repeat:no-repeat;
     box-shadow: inset 550px 550px 550px 550px rgba(246, 255,241, .7);
 }
 .solar {
     background-size:100% 100%;
     background-image:url(../images/solar.png);
-    background-repeat:no-repeat;    
-}
-.solar:hover{
-    box-shadow: inset 550px 550px 550px 550px rgba(107,170,117, .7);
+    background-repeat:no-repeat;
+    box-shadow: inset 550px 550px 550px 550px rgba(107,170,117, .7); 
 }
 .bg-pri{
     background-color:#573d1c;
@@ -136,4 +134,65 @@ body{
     margin-top:2em;
     box-shadow: inset 110px 100px 100px 150px #E0FFFF;
     background-attachment:fixed;
+}
+.uniq{
+    background-position: center;
+    width: auto;
+    height: 75px;
+}
+.foto1{
+    background-image: url(../images/home.jpg);
+    margin-right: -200px;
+}
+.foto2{
+    background-image: url(../images/sala/IMG-20190217-WA0041.jpg);
+    margin-right: -300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.foto3{
+    background-image: url(../images/fplanejados1.jpg);
+    margin-right: -300px;
+}
+.foto4{
+    background-image: url(../images/construcao/drywall.png);
+    margin-right: -300px;
+}
+.vantagem1{
+    background-image: url(../images/bg/1.png);
+    margin-left: -300px;
+    /* background-position: right;
+    background-repeat: no-repeat; */
+    width: auto;
+    height: 95px
+}
+.vantagem2{
+    background-image: url(../images/bg/2.png);
+    margin-left: -300px;
+    /* background-position: center left; */
+    width: auto;
+    height: 95px
+}
+.vantagem3{
+    background-image: url(../images/bg/3.png);
+    margin-left: -300px;
+    /* background-position: bottom; */
+    width: auto;
+    height: 95px
+}
+.vantagem4{
+    background-image: url(../images/bg/4.png);
+    margin-left: -300px;
+    /* background-position: top; */
+    width: auto;
+    height: 75px
+}
+.vantagem {
+    background-size:100% 100%;
+    background-image:url(../images/planebg.jpg);
+    background-repeat:no-repeat;
+    box-shadow: inset 550px 550px 550px 550px rgba(255, 255, 255, .5);
+}
+.link:hover{
+    text-decoration: none;
 }
