@@ -1,4 +1,9 @@
 @import 'geral.css'; 
+@import 'moveis.css';
+@import 'planejados.css';
+@import 'corporativo.css';
+@import 'construcao.css';
+@import 'solar.css';
 /*
 cor box shadow #E0FFFF #696969 voltado para pagina planejados
 */

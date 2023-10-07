@@ -6,3 +6,6 @@ Uma parte de contato que ser encontra na parte inferior de todas as páginas (fo
 ## Usando o PHPMailer
  
 Aqui estamos fazendo formulário que dispara um email para o Diretor da empresa.
+
+__*Layout*__
+![Layout](https://github.com/WillTbn/Dreamsfinances/blob/master/assets/images/uniq.jpg)

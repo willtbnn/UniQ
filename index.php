@@ -41,9 +41,10 @@
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600&display=swap" rel="stylesheet">
         
     </head>
-    <body oncontextmenu="return false" onselect="return false" ondragstart="return false">
+    <body  onselect="return false" ondragstart="return false">
+    <!-- oncontextmenu="return false" -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 box-shadow mb-5">
-            <a class="navbar-brand ml-md-5" href="https://grupouniq.com.br">
+            <a class="navbar-brand ml-md-5"  href="<?=LINK?>">
                 <img src="assets/images/slogan/slogan.png" style="width:200px;height:50px;" />
             </a>
             <buttom class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -184,9 +185,10 @@
             <div class="text-center">
                 <h5 class="display-5">Grupo Uni<code class="l">Q</code> 2020. © Alguns direitos reservados </h5>
                 <hr>
-                <p class="mb-0 pb-0">
+                <p class="mb-2 pb-0">
                     Desenvolvido por 
-                    <b>▬Develops  <a class="link" href="http://woza.com.br"><kbd>woza</Kbd> </a>▬</b>
+                    <!-- <b>▬Develops  <a class="link" href="http://woza.com.br"><kbd>woza</Kbd> </a>▬</b> -->
+                    <b>▬Develops  <kbd>Jorge Nunes</Kbd>▬</b>
                 </p>
             </div>     
         </footer>
